@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "glove-mlops"
 version = "0.1.0"
@@ -6,7 +10,7 @@ requires-python = ">=3.11"
 dependencies = [
     "pandas==2.2.3",
     "pandera==0.20.4",
-    "prefect==3.1.5",
+    "prefect==3.7.8",
 ]
 
 [project.optional-dependencies]
@@ -16,6 +20,9 @@ dev = [
     "ruff==0.7.4",
     "pre-commit==4.0.1",
 ]
+
+[tool.setuptools]
+packages = ["dags"]
 
 [tool.ruff]
 line-length = 100
