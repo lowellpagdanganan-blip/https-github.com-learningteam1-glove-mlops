@@ -1,0 +1,801 @@
+LeftRight,Area,Test_Year,Test_Quarter,Brand,Size,Make,Number_of_Owners,Age_as_of_Test,Liveline_Usage,PreArrange_Usage,Number_of_Usage,Leakage_mA,Test_Result
+Left,North,2025,Q4,CATU,9,Composite,3,3.5,45,24,69,1.341,Pass
+Right,South,2023,Q3,3M,7,EPDM,3,0.5,448,532,980,1.613,Pass
+Left,Central,2023,Q3,CATU,9,Composite,3,0.0,604,149,753,0.384,Pass
+Left,South,2023,Q3,CATU,9,Composite,2,2.0,316,212,528,1.677,Pass
+Left,Central,2024,Q4,Honeywell,8,Composite,2,2.25,628,535,1163,2.851,Pass
+Right,South,2025,Q2,Honeywell,7,Composite,4,2.25,1142,380,1522,2.953,Pass
+Left,Central,2024,Q4,CATU,8,Latex Rubber,4,0.25,366,508,874,0.798,Pass
+Left,North,2024,Q2,3M,7,Composite,3,1.25,190,170,360,1.315,Pass
+Left,South,2023,Q4,Novax,8,Latex Rubber,4,2.0,77,554,631,1.202,Pass
+Right,North,2025,Q4,Honeywell,9,Latex Rubber,2,0.75,301,185,486,1.725,Pass
+Left,Central,2024,Q2,Honeywell,7,EPDM,4,3.5,701,865,1566,3.532,Fail
+Left,South,2024,Q3,3M,10,Composite,2,0.25,190,621,811,1.727,Pass
+Left,South,2023,Q2,Honeywell,9,EPDM,3,2.0,443,616,1059,2.09,Pass
+Left,South,2025,Q1,3M,10,Latex Rubber,3,2.75,923,606,1529,2.927,Pass
+Right,South,2024,Q1,Honeywell,9,EPDM,2,1.0,75,816,891,1.27,Pass
+Left,Central,2023,Q2,Novax,8,Composite,4,2.5,1054,448,1502,3.465,Fail
+Right,North,2023,Q4,CATU,7,EPDM,3,3.25,393,336,729,2.389,Pass
+Right,Central,2024,Q1,3M,9,Latex Rubber,3,0.75,48,507,555,1.534,Pass
+Right,South,2024,Q1,3M,8,Latex Rubber,4,3.75,831,83,914,2.994,Pass
+Left,South,2023,Q4,CATU,7,Composite,4,2.25,611,589,1200,1.63,Pass
+Right,South,2025,Q4,3M,7,EPDM,2,1.25,794,692,1486,2.04,Pass
+Left,South,2023,Q3,3M,9,Composite,4,1.75,680,400,1080,1.645,Pass
+Right,North,2024,Q4,Honeywell,7,Composite,4,1.25,1106,612,1718,2.551,Pass
+Right,Central,2025,Q2,Honeywell,9,Latex Rubber,4,3.0,488,861,1349,2.569,Pass
+Right,North,2024,Q2,CATU,7,Composite,2,3.25,570,107,677,3.16,Fail
+Right,Central,2024,Q3,Novax,10,Composite,2,3.25,110,406,516,2.506,Pass
+Right,Central,2024,Q1,3M,8,Composite,3,4.0,523,228,751,3.087,Fail
+Right,South,2023,Q1,Novax,10,Latex Rubber,2,3.25,185,522,707,3.052,Fail
+Right,Central,2025,Q4,CATU,9,Latex Rubber,3,2.5,247,638,885,2.953,Pass
+Right,North,2024,Q2,Novax,10,EPDM,4,1.25,919,240,1159,2.021,Pass
+Left,North,2025,Q1,Honeywell,9,Latex Rubber,3,2.25,1092,431,1523,2.523,Pass
+Left,South,2023,Q3,Novax,7,Composite,3,0.25,1132,120,1252,0.677,Pass
+Right,South,2023,Q3,Novax,7,EPDM,4,3.0,880,167,1047,2.549,Pass
+Right,North,2023,Q2,CATU,9,EPDM,3,1.75,504,230,734,1.614,Pass
+Right,North,2024,Q3,Novax,10,Composite,2,0.0,956,234,1190,1.425,Pass
+Left,South,2024,Q3,CATU,7,EPDM,2,0.25,764,186,950,1.12,Pass
+Right,North,2025,Q2,CATU,8,Latex Rubber,2,1.5,220,253,473,1.895,Pass
+Left,South,2024,Q4,CATU,7,Composite,2,2.25,1156,322,1478,2.561,Pass
+Left,South,2025,Q4,Honeywell,8,Composite,3,1.75,149,214,363,1.561,Pass
+Left,North,2023,Q3,3M,10,Composite,3,2.5,550,660,1210,3.356,Fail
+Left,North,2025,Q4,Honeywell,8,Composite,4,2.0,279,396,675,2.178,Pass
+Left,South,2025,Q4,Honeywell,8,Latex Rubber,3,2.75,1045,861,1906,3.498,Fail
+Right,Central,2025,Q3,Honeywell,8,EPDM,3,1.0,515,100,615,1.103,Pass
+Right,Central,2025,Q4,Novax,8,EPDM,3,0.5,1139,898,2037,2.092,Pass
+Right,South,2025,Q3,CATU,7,Latex Rubber,4,2.5,41,862,903,2.062,Pass
+Right,South,2024,Q1,CATU,8,Composite,2,2.0,1107,760,1867,2.81,Pass
+Right,South,2023,Q2,CATU,7,EPDM,3,0.0,1102,90,1192,1.751,Pass
+Left,South,2023,Q2,3M,8,EPDM,4,1.5,822,419,1241,2.131,Pass
+Right,Central,2025,Q4,3M,9,EPDM,4,0.5,371,398,769,0.592,Pass
+Right,North,2024,Q4,CATU,10,Latex Rubber,4,2.25,938,700,1638,3.896,Fail
+Left,South,2025,Q4,CATU,8,Latex Rubber,2,1.5,109,637,746,1.956,Pass
+Right,South,2024,Q2,Novax,9,EPDM,3,2.5,18,848,866,1.751,Pass
+Left,Central,2023,Q1,Honeywell,8,Latex Rubber,4,3.25,706,505,1211,2.956,Pass
+Right,South,2023,Q1,CATU,8,Composite,2,1.25,1062,608,1670,2.546,Pass
+Left,North,2024,Q2,Honeywell,8,Composite,4,3.75,1147,586,1733,4.774,Fail
+Right,Central,2024,Q1,3M,9,Composite,4,2.25,471,137,608,1.531,Pass
+Right,North,2023,Q2,CATU,10,Composite,4,2.5,930,795,1725,3.716,Fail
+Left,Central,2024,Q1,Honeywell,9,EPDM,4,2.75,1176,653,1829,4.158,Fail
+Left,North,2023,Q3,Honeywell,10,EPDM,4,2.75,399,318,717,2.143,Pass
+Left,North,2024,Q3,CATU,8,Latex Rubber,2,2.0,641,703,1344,2.471,Pass
+Left,North,2023,Q2,Novax,7,EPDM,3,1.75,691,225,916,1.569,Pass
+Left,South,2025,Q1,Novax,8,EPDM,3,0.25,166,442,608,0.883,Pass
+Left,South,2023,Q4,Honeywell,10,Composite,3,0.0,344,50,394,0.636,Pass
+Left,South,2024,Q1,Honeywell,9,Composite,3,1.5,269,794,1063,2.412,Pass
+Left,South,2023,Q3,Honeywell,8,EPDM,2,1.25,91,196,287,1.791,Pass
+Right,Central,2023,Q3,3M,9,EPDM,2,1.5,763,524,1287,1.909,Pass
+Right,North,2024,Q1,CATU,9,Latex Rubber,2,0.5,729,383,1112,0.592,Pass
+Left,South,2024,Q1,3M,9,Composite,4,3.0,84,792,876,2.728,Pass
+Right,North,2024,Q4,Honeywell,8,Composite,4,3.5,635,695,1330,3.569,Fail
+Right,South,2023,Q4,Honeywell,9,EPDM,4,3.75,71,338,409,2.855,Pass
+Right,North,2024,Q1,3M,9,Composite,3,2.0,883,43,926,2.07,Pass
+Right,South,2025,Q1,Novax,8,Composite,4,2.75,329,297,626,2.438,Pass
+Left,North,2025,Q1,Novax,9,EPDM,3,3.5,111,694,805,3.707,Fail
+Right,South,2023,Q1,Honeywell,8,Composite,4,1.75,883,166,1049,2.397,Pass
+Left,Central,2024,Q2,Honeywell,10,EPDM,3,1.25,963,335,1298,1.969,Pass
+Right,South,2023,Q1,Novax,10,Composite,4,3.75,264,890,1154,3.151,Fail
+Right,North,2023,Q4,3M,10,Composite,4,2.0,579,108,687,1.933,Pass
+Right,South,2025,Q3,Honeywell,9,EPDM,2,2.0,121,165,286,2.476,Pass
+Left,South,2023,Q2,3M,7,Latex Rubber,4,0.75,994,803,1797,2.238,Pass
+Right,Central,2024,Q1,Honeywell,7,EPDM,4,0.5,1007,639,1646,2.047,Pass
+Left,South,2024,Q3,CATU,9,Latex Rubber,2,3.25,470,58,528,2.322,Pass
+Right,South,2024,Q2,Novax,7,Composite,3,2.5,717,38,755,2.904,Pass
+Left,Central,2024,Q3,Novax,8,Latex Rubber,2,1.25,896,246,1142,2.995,Pass
+Right,South,2023,Q1,3M,7,Composite,2,0.75,1125,894,2019,2.755,Pass
+Left,South,2023,Q1,Honeywell,9,EPDM,3,2.25,1085,117,1202,2.661,Pass
+Left,South,2024,Q4,Novax,9,EPDM,4,2.25,529,322,851,2.322,Pass
+Right,North,2023,Q1,Honeywell,8,Latex Rubber,3,0.75,821,27,848,0.284,Pass
+Left,North,2024,Q1,Novax,10,EPDM,4,3.5,1131,562,1693,4.121,Fail
+Right,South,2023,Q2,Honeywell,9,Composite,4,0.25,245,828,1073,1.47,Pass
+Right,South,2023,Q4,CATU,8,Composite,3,1.5,936,651,1587,2.767,Pass
+Right,Central,2024,Q2,CATU,7,Latex Rubber,2,2.75,566,122,688,2.076,Pass
+Right,South,2023,Q3,3M,7,EPDM,3,1.0,658,705,1363,1.884,Pass
+Right,North,2024,Q1,Honeywell,8,Latex Rubber,4,3.25,243,647,890,2.683,Pass
+Right,North,2024,Q3,CATU,8,Composite,3,3.0,1065,216,1281,3.614,Fail
+Right,Central,2025,Q2,Honeywell,9,Composite,3,3.25,588,422,1010,2.807,Pass
+Right,Central,2023,Q1,Honeywell,7,Composite,4,0.5,551,117,668,2.218,Pass
+Right,South,2023,Q1,Honeywell,8,Latex Rubber,2,0.5,123,48,171,0.944,Pass
+Right,North,2023,Q2,Novax,7,EPDM,3,1.25,213,132,345,0.66,Pass
+Right,South,2024,Q2,Novax,8,Latex Rubber,4,2.0,1062,880,1942,3.084,Fail
+Left,South,2024,Q2,CATU,7,Composite,4,3.0,652,162,814,2.357,Pass
+Left,South,2023,Q2,Novax,10,EPDM,3,3.25,483,789,1272,2.135,Pass
+Right,Central,2025,Q2,Honeywell,9,EPDM,2,2.75,706,831,1537,3.996,Fail
+Right,Central,2023,Q1,Honeywell,7,Composite,3,3.75,262,398,660,3.308,Fail
+Right,South,2024,Q2,Novax,10,Latex Rubber,2,3.0,914,871,1785,3.823,Fail
+Right,South,2024,Q1,3M,7,Latex Rubber,2,1.25,395,856,1251,2.196,Pass
+Right,North,2025,Q1,3M,7,Latex Rubber,2,1.0,71,516,587,0.687,Pass
+Right,South,2024,Q2,Novax,10,EPDM,2,2.75,524,49,573,2.086,Pass
+Right,South,2025,Q2,CATU,7,Composite,3,0.75,439,112,551,1.629,Pass
+Right,South,2023,Q4,Novax,7,Composite,4,0.25,589,223,812,0.643,Pass
+Left,South,2025,Q1,Novax,9,Latex Rubber,4,2.25,1174,447,1621,1.731,Pass
+Right,South,2023,Q2,3M,10,Composite,4,3.25,752,834,1586,3.401,Fail
+Left,Central,2025,Q2,Novax,10,EPDM,4,0.5,684,319,1003,1.407,Pass
+Right,South,2024,Q2,CATU,8,EPDM,4,3.25,320,181,501,2.606,Pass
+Right,South,2025,Q4,Honeywell,7,EPDM,4,3.25,480,232,712,3.093,Fail
+Left,North,2024,Q4,Honeywell,9,Latex Rubber,3,2.0,818,707,1525,3.091,Fail
+Right,North,2024,Q3,Novax,7,Composite,2,0.25,181,676,857,1.338,Pass
+Left,Central,2024,Q1,3M,7,Composite,4,0.75,585,271,856,2.081,Pass
+Right,South,2024,Q3,Honeywell,8,Composite,3,2.75,40,874,914,1.876,Pass
+Right,South,2023,Q2,Honeywell,7,EPDM,4,2.75,56,842,898,2.873,Pass
+Left,North,2023,Q4,Honeywell,9,Composite,4,3.5,139,383,522,3.008,Fail
+Right,South,2023,Q4,Honeywell,9,Composite,2,2.25,361,493,854,1.686,Pass
+Left,Central,2023,Q3,3M,8,Latex Rubber,2,0.5,987,706,1693,1.347,Pass
+Right,South,2025,Q4,CATU,7,Latex Rubber,2,0.5,67,691,758,0.884,Pass
+Left,South,2023,Q2,CATU,9,Composite,4,3.0,1139,294,1433,2.909,Pass
+Left,South,2025,Q4,Novax,7,EPDM,4,0.75,821,361,1182,2.153,Pass
+Right,Central,2023,Q3,CATU,7,Latex Rubber,4,1.25,777,661,1438,1.974,Pass
+Right,Central,2023,Q2,3M,7,Composite,2,2.0,692,748,1440,2.268,Pass
+Left,North,2025,Q3,Novax,8,Composite,3,0.0,1195,876,2071,1.858,Pass
+Right,North,2024,Q4,3M,7,Composite,4,1.0,1006,208,1214,2.502,Pass
+Right,South,2024,Q3,Novax,9,EPDM,4,1.75,295,217,512,1.73,Pass
+Right,South,2024,Q3,Honeywell,7,Composite,4,1.0,1104,556,1660,2.254,Pass
+Left,South,2024,Q1,Novax,9,Latex Rubber,3,0.5,895,791,1686,2.037,Pass
+Left,South,2023,Q4,CATU,7,EPDM,4,3.0,406,327,733,3.256,Fail
+Left,South,2025,Q4,3M,9,EPDM,3,3.25,35,598,633,2.283,Pass
+Left,South,2025,Q3,Honeywell,9,Composite,4,1.0,322,185,507,1.964,Pass
+Left,South,2024,Q1,Novax,7,EPDM,3,3.0,135,503,638,2.629,Pass
+Left,South,2023,Q4,Honeywell,7,EPDM,4,1.5,820,324,1144,2.074,Pass
+Left,North,2024,Q2,3M,9,Latex Rubber,2,2.0,197,87,284,2.906,Pass
+Left,Central,2023,Q3,Honeywell,10,Latex Rubber,2,3.5,707,307,1014,2.61,Pass
+Left,North,2023,Q4,Honeywell,8,EPDM,2,3.0,819,266,1085,2.75,Pass
+Right,South,2023,Q2,Honeywell,10,Latex Rubber,2,3.25,725,788,1513,2.833,Pass
+Left,South,2024,Q4,Honeywell,10,Latex Rubber,4,0.5,459,204,663,1.648,Pass
+Right,North,2025,Q2,Novax,7,Latex Rubber,2,0.25,532,244,776,1.98,Pass
+Right,South,2024,Q3,Honeywell,8,Composite,3,3.5,995,696,1691,4.582,Fail
+Right,South,2024,Q4,3M,10,Composite,2,1.5,667,687,1354,2.956,Pass
+Left,Central,2024,Q4,Honeywell,7,Composite,2,1.25,606,299,905,1.703,Pass
+Left,North,2023,Q1,3M,10,EPDM,2,3.0,109,516,625,2.33,Pass
+Left,South,2024,Q3,CATU,10,EPDM,4,3.25,625,693,1318,2.438,Pass
+Left,Central,2025,Q2,CATU,7,EPDM,2,3.5,957,885,1842,4.901,Fail
+Right,South,2023,Q4,3M,7,Latex Rubber,3,1.25,565,400,965,2.09,Pass
+Left,Central,2025,Q4,CATU,7,Latex Rubber,2,3.5,287,753,1040,2.915,Pass
+Left,South,2024,Q2,3M,8,Latex Rubber,2,0.25,500,142,642,1.679,Pass
+Left,South,2024,Q3,Novax,10,Composite,2,0.25,264,843,1107,0.947,Pass
+Left,South,2024,Q1,Novax,7,EPDM,3,2.5,390,882,1272,3.023,Fail
+Left,South,2024,Q1,3M,9,Composite,2,0.25,901,827,1728,1.906,Pass
+Right,Central,2025,Q4,Novax,10,Composite,3,1.25,551,133,684,1.922,Pass
+Left,North,2025,Q2,Honeywell,9,Composite,3,2.75,834,53,887,2.579,Pass
+Right,North,2024,Q4,CATU,8,Composite,2,1.25,888,680,1568,1.673,Pass
+Left,South,2023,Q2,3M,7,EPDM,3,0.75,1148,793,1941,2.497,Pass
+Right,South,2024,Q1,Honeywell,9,Latex Rubber,4,1.25,290,297,587,2.04,Pass
+Left,South,2025,Q3,Honeywell,8,Composite,2,1.75,782,632,1414,2.52,Pass
+Left,North,2023,Q2,Honeywell,7,EPDM,2,2.0,852,540,1392,3.04,Fail
+Right,North,2024,Q1,3M,9,EPDM,3,3.25,728,315,1043,2.503,Pass
+Right,North,2024,Q4,3M,9,Composite,3,3.0,337,541,878,2.727,Pass
+Right,Central,2024,Q2,CATU,8,EPDM,2,1.75,220,643,863,1.727,Pass
+Left,South,2023,Q3,CATU,7,Composite,4,3.5,736,238,974,3.475,Fail
+Right,Central,2024,Q4,3M,7,EPDM,3,0.5,932,213,1145,1.621,Pass
+Left,Central,2025,Q4,CATU,9,EPDM,3,1.0,561,609,1170,2.248,Pass
+Left,South,2023,Q1,Novax,9,Composite,4,3.25,35,98,133,2.751,Pass
+Right,Central,2023,Q2,Novax,9,Composite,4,1.5,36,331,367,1.801,Pass
+Right,Central,2025,Q4,CATU,7,EPDM,2,4.0,711,229,940,3.483,Fail
+Left,South,2023,Q3,Novax,8,Latex Rubber,4,1.75,1116,894,2010,2.572,Pass
+Left,Central,2025,Q2,CATU,8,Composite,2,3.25,691,796,1487,3.424,Fail
+Right,South,2024,Q3,Honeywell,7,EPDM,4,1.5,422,15,437,1.252,Pass
+Right,South,2023,Q4,3M,10,EPDM,3,1.75,176,333,509,1.549,Pass
+Right,South,2025,Q3,Honeywell,8,Latex Rubber,2,1.5,178,16,194,1.112,Pass
+Left,North,2024,Q1,Novax,9,Latex Rubber,2,3.0,238,39,277,1.709,Pass
+Left,South,2024,Q3,Honeywell,10,EPDM,2,2.25,376,451,827,1.303,Pass
+Left,Central,2024,Q2,CATU,10,EPDM,4,3.75,537,456,993,2.922,Pass
+Left,North,2024,Q3,Honeywell,8,Latex Rubber,3,1.0,800,744,1544,2.336,Pass
+Left,Central,2023,Q3,3M,10,EPDM,2,0.5,533,224,757,0.582,Pass
+Left,South,2024,Q1,Novax,10,Composite,2,1.5,1105,445,1550,2.528,Pass
+Right,Central,2025,Q3,Honeywell,8,Composite,2,2.5,115,657,772,3.32,Fail
+Left,Central,2023,Q3,CATU,8,Latex Rubber,2,3.5,741,539,1280,3.889,Fail
+Left,South,2024,Q4,Honeywell,10,Latex Rubber,3,1.5,974,599,1573,3.362,Fail
+Left,North,2023,Q4,Honeywell,9,Composite,4,2.5,142,233,375,2.208,Pass
+Right,North,2025,Q2,3M,7,EPDM,3,1.5,543,348,891,2.511,Pass
+Left,North,2023,Q4,Honeywell,10,EPDM,2,2.5,984,84,1068,2.274,Pass
+Left,North,2025,Q4,3M,10,Composite,3,3.5,278,357,635,2.474,Pass
+Right,North,2024,Q4,Honeywell,9,Latex Rubber,2,1.0,682,400,1082,0.454,Pass
+Left,North,2023,Q4,Novax,10,Composite,4,1.5,800,294,1094,2.703,Pass
+Left,South,2023,Q1,Novax,10,Composite,4,4.0,27,459,486,3.708,Fail
+Left,North,2023,Q4,Honeywell,7,EPDM,4,3.5,126,847,973,2.824,Pass
+Left,Central,2024,Q1,Honeywell,7,EPDM,2,2.25,807,675,1482,2.744,Pass
+Left,South,2023,Q1,3M,7,Composite,3,2.0,1177,132,1309,2.201,Pass
+Right,Central,2025,Q4,Honeywell,8,EPDM,4,1.25,560,706,1266,2.318,Pass
+Right,South,2024,Q3,CATU,8,EPDM,2,2.0,938,547,1485,3.299,Fail
+Right,North,2023,Q1,Honeywell,7,Composite,2,3.5,762,363,1125,2.366,Pass
+Left,North,2024,Q3,CATU,7,Composite,3,2.75,431,531,962,2.883,Pass
+Left,North,2024,Q3,3M,8,EPDM,4,1.25,655,317,972,1.724,Pass
+Left,North,2023,Q4,Honeywell,9,Composite,2,0.75,567,79,646,1.351,Pass
+Right,North,2023,Q2,3M,10,Latex Rubber,3,1.0,59,550,609,1.628,Pass
+Left,North,2023,Q4,Honeywell,10,Latex Rubber,4,0.75,687,875,1562,2.024,Pass
+Left,North,2024,Q2,CATU,7,Latex Rubber,3,0.5,115,200,315,0.807,Pass
+Right,North,2024,Q2,3M,9,Composite,3,1.75,667,847,1514,2.518,Pass
+Left,Central,2024,Q4,Honeywell,8,Latex Rubber,2,0.5,1105,33,1138,2.084,Pass
+Right,North,2025,Q4,3M,7,EPDM,2,0.75,997,710,1707,2.458,Pass
+Right,Central,2025,Q2,CATU,9,Composite,2,2.25,851,20,871,2.432,Pass
+Right,Central,2024,Q4,Honeywell,9,Composite,3,0.75,455,427,882,0.871,Pass
+Left,South,2025,Q2,3M,9,Composite,2,0.25,79,593,672,0.853,Pass
+Left,North,2023,Q3,Novax,8,EPDM,3,1.25,159,809,968,2.308,Pass
+Left,South,2023,Q4,3M,8,EPDM,3,1.0,783,597,1380,2.111,Pass
+Left,South,2023,Q3,3M,10,Composite,2,2.0,1132,409,1541,3.117,Fail
+Left,North,2023,Q1,Honeywell,10,EPDM,4,0.5,953,640,1593,2.892,Pass
+Left,South,2024,Q3,CATU,9,Composite,4,3.0,464,535,999,3.368,Fail
+Left,South,2025,Q3,3M,9,EPDM,4,3.5,1137,618,1755,3.851,Fail
+Right,North,2023,Q2,CATU,8,EPDM,3,3.0,955,81,1036,2.627,Pass
+Left,North,2023,Q3,CATU,10,Latex Rubber,3,2.25,610,233,843,1.019,Pass
+Right,South,2024,Q4,Novax,9,Latex Rubber,3,3.5,662,301,963,3.008,Fail
+Left,South,2025,Q2,CATU,10,EPDM,2,2.75,734,514,1248,2.773,Pass
+Left,North,2023,Q1,Honeywell,10,EPDM,3,0.0,242,719,961,1.36,Pass
+Left,North,2024,Q4,Novax,9,EPDM,2,1.5,260,577,837,1.801,Pass
+Right,Central,2023,Q1,CATU,8,Latex Rubber,2,3.5,88,542,630,2.632,Pass
+Right,Central,2023,Q3,Novax,9,Composite,4,1.5,1085,587,1672,1.74,Pass
+Right,South,2025,Q4,CATU,9,Composite,4,0.25,907,619,1526,1.341,Pass
+Right,Central,2025,Q4,Novax,10,Composite,4,3.0,930,330,1260,3.322,Fail
+Left,Central,2023,Q1,3M,9,EPDM,2,3.25,790,367,1157,3.987,Fail
+Right,South,2025,Q4,Honeywell,8,EPDM,2,0.75,235,673,908,1.481,Pass
+Left,North,2024,Q4,Honeywell,9,Latex Rubber,2,2.25,1084,879,1963,3.468,Fail
+Left,North,2025,Q4,CATU,8,Composite,3,0.75,1067,363,1430,2.476,Pass
+Right,South,2024,Q3,Honeywell,8,EPDM,2,3.0,812,710,1522,2.914,Pass
+Right,South,2024,Q1,Honeywell,10,Latex Rubber,4,1.0,751,791,1542,2.421,Pass
+Right,Central,2024,Q4,3M,7,Latex Rubber,4,1.25,140,328,468,1.038,Pass
+Right,Central,2024,Q2,3M,7,EPDM,2,3.5,1032,702,1734,4.218,Fail
+Right,North,2023,Q2,Honeywell,10,EPDM,2,2.0,641,330,971,2.35,Pass
+Right,Central,2023,Q2,Honeywell,9,Composite,4,2.75,847,629,1476,3.29,Fail
+Right,Central,2023,Q2,Novax,10,Latex Rubber,2,1.5,768,829,1597,2.171,Pass
+Right,North,2024,Q3,Honeywell,8,Composite,4,1.25,713,169,882,2.135,Pass
+Left,North,2023,Q4,Novax,7,Latex Rubber,3,2.5,506,577,1083,3.692,Fail
+Right,Central,2024,Q1,Honeywell,10,EPDM,4,0.5,332,608,940,0.917,Pass
+Right,North,2025,Q4,CATU,9,EPDM,3,1.5,624,802,1426,2.239,Pass
+Left,Central,2023,Q3,3M,10,Composite,2,0.75,338,459,797,1.546,Pass
+Right,North,2024,Q2,Honeywell,7,EPDM,2,2.75,142,157,299,2.475,Pass
+Left,Central,2024,Q3,Honeywell,10,EPDM,3,3.75,844,741,1585,3.509,Fail
+Left,North,2025,Q4,3M,10,Composite,2,4.0,660,131,791,1.795,Pass
+Right,South,2023,Q1,CATU,7,EPDM,3,1.75,130,197,327,2.236,Pass
+Left,South,2024,Q3,Novax,8,Latex Rubber,2,1.0,615,631,1246,2.352,Pass
+Left,South,2025,Q1,Honeywell,8,EPDM,4,1.75,974,778,1752,1.968,Pass
+Left,South,2025,Q3,CATU,7,EPDM,2,3.5,138,534,672,2.526,Pass
+Left,Central,2024,Q1,Honeywell,10,Composite,4,0.75,1124,14,1138,2.521,Pass
+Right,North,2024,Q1,3M,7,EPDM,4,3.75,38,96,134,3.207,Fail
+Left,Central,2024,Q2,CATU,8,Composite,3,1.25,731,143,874,2.243,Pass
+Right,South,2025,Q1,CATU,9,EPDM,2,4.0,342,485,827,3.156,Fail
+Left,South,2024,Q2,3M,10,Latex Rubber,3,3.25,1163,453,1616,3.583,Fail
+Left,Central,2023,Q4,Honeywell,8,EPDM,2,3.25,953,337,1290,3.183,Fail
+Left,North,2025,Q4,CATU,10,Composite,4,1.25,1057,873,1930,3.289,Fail
+Left,North,2024,Q2,Novax,7,EPDM,4,0.0,1132,344,1476,1.19,Pass
+Right,Central,2024,Q2,Novax,9,EPDM,2,1.5,365,56,421,1.101,Pass
+Right,South,2023,Q3,3M,7,EPDM,2,1.25,148,711,859,2.266,Pass
+Left,South,2024,Q3,Honeywell,9,Latex Rubber,3,0.25,38,470,508,0.873,Pass
+Left,Central,2024,Q3,Honeywell,10,Latex Rubber,2,2.0,940,722,1662,3.585,Fail
+Right,South,2024,Q4,Novax,10,EPDM,2,1.5,505,803,1308,1.966,Pass
+Left,South,2023,Q3,3M,7,EPDM,2,2.5,1023,479,1502,2.999,Pass
+Left,North,2024,Q1,Honeywell,9,Composite,3,2.5,664,405,1069,2.176,Pass
+Left,North,2025,Q1,Honeywell,9,Composite,2,0.5,837,443,1280,1.731,Pass
+Right,North,2023,Q3,CATU,10,EPDM,4,4.0,360,882,1242,2.879,Pass
+Right,North,2025,Q1,3M,7,EPDM,3,0.75,563,609,1172,1.523,Pass
+Right,North,2024,Q4,Honeywell,9,EPDM,3,1.75,308,825,1133,1.564,Pass
+Left,North,2025,Q1,Honeywell,10,EPDM,4,2.0,73,661,734,2.408,Pass
+Left,North,2025,Q4,CATU,8,Composite,4,3.25,764,602,1366,3.675,Fail
+Right,North,2024,Q2,Honeywell,7,EPDM,4,0.5,779,513,1292,0.873,Pass
+Right,South,2024,Q2,CATU,8,Composite,2,1.75,843,157,1000,2.829,Pass
+Right,North,2025,Q2,Honeywell,7,Composite,4,2.5,175,518,693,3.547,Fail
+Right,Central,2024,Q2,3M,10,Latex Rubber,2,0.75,515,507,1022,1.655,Pass
+Left,Central,2023,Q1,Novax,9,Composite,3,2.5,802,858,1660,2.848,Pass
+Right,South,2024,Q3,CATU,9,EPDM,3,3.75,842,776,1618,5.231,Fail
+Left,North,2025,Q1,CATU,9,Composite,4,4.0,867,680,1547,3.233,Fail
+Right,Central,2025,Q4,3M,7,Latex Rubber,2,0.25,815,10,825,1.19,Pass
+Left,South,2025,Q1,3M,10,EPDM,4,1.0,1182,504,1686,2.457,Pass
+Right,South,2024,Q1,Honeywell,8,Composite,4,1.25,770,665,1435,2.952,Pass
+Right,South,2025,Q4,CATU,10,EPDM,2,1.5,842,721,1563,2.712,Pass
+Right,North,2023,Q2,Novax,8,EPDM,4,1.0,292,122,414,0.973,Pass
+Right,North,2024,Q2,3M,7,Latex Rubber,3,0.75,388,489,877,1.026,Pass
+Left,South,2023,Q2,CATU,7,Composite,4,3.75,207,605,812,2.922,Pass
+Right,South,2023,Q3,CATU,8,Latex Rubber,2,3.75,1024,670,1694,3.384,Fail
+Left,South,2024,Q4,3M,8,Latex Rubber,2,0.25,1033,683,1716,2.006,Pass
+Left,South,2024,Q4,3M,8,Latex Rubber,3,1.25,565,472,1037,1.639,Pass
+Left,North,2024,Q1,CATU,10,EPDM,2,1.5,365,165,530,0.855,Pass
+Left,South,2024,Q3,Honeywell,8,EPDM,2,1.0,1050,274,1324,2.669,Pass
+Right,North,2024,Q2,CATU,7,EPDM,3,2.5,648,60,708,2.063,Pass
+Left,Central,2023,Q3,Honeywell,7,Latex Rubber,4,2.5,388,232,620,1.599,Pass
+Left,Central,2024,Q4,Honeywell,9,EPDM,3,3.5,689,853,1542,3.529,Fail
+Left,Central,2023,Q4,3M,8,EPDM,4,3.0,515,153,668,2.585,Pass
+Right,North,2023,Q1,Honeywell,10,EPDM,3,2.25,908,50,958,1.526,Pass
+Right,North,2024,Q1,Novax,10,EPDM,4,2.5,85,148,233,2.051,Pass
+Right,South,2024,Q4,Honeywell,10,Latex Rubber,3,1.0,240,754,994,1.221,Pass
+Right,North,2024,Q2,Honeywell,9,Composite,4,2.25,971,788,1759,3.976,Fail
+Left,South,2024,Q2,CATU,7,Latex Rubber,3,2.0,311,636,947,2.514,Pass
+Left,North,2024,Q3,Honeywell,10,EPDM,4,0.5,735,344,1079,1.346,Pass
+Right,Central,2025,Q4,Honeywell,7,Latex Rubber,3,1.0,224,417,641,1.054,Pass
+Left,Central,2024,Q4,Honeywell,9,EPDM,2,1.25,1191,736,1927,2.669,Pass
+Left,North,2024,Q2,Novax,8,EPDM,4,3.75,78,524,602,3.211,Fail
+Left,Central,2023,Q2,3M,8,Latex Rubber,3,1.0,402,348,750,1.512,Pass
+Right,North,2023,Q4,3M,8,Composite,4,1.25,1118,391,1509,2.237,Pass
+Right,North,2024,Q1,Honeywell,10,Latex Rubber,4,1.5,276,477,753,1.832,Pass
+Left,South,2024,Q4,Novax,8,EPDM,3,2.75,1102,279,1381,2.753,Pass
+Right,Central,2024,Q4,3M,10,EPDM,4,0.5,620,357,977,1.283,Pass
+Right,South,2024,Q2,CATU,9,Composite,3,3.75,1018,70,1088,2.299,Pass
+Right,North,2024,Q2,3M,9,EPDM,2,3.5,971,83,1054,3.66,Fail
+Right,South,2025,Q1,CATU,10,Composite,4,2.25,737,602,1339,2.892,Pass
+Right,South,2025,Q1,Honeywell,7,Composite,2,2.75,682,640,1322,2.616,Pass
+Left,South,2024,Q3,Honeywell,8,Composite,4,0.0,432,206,638,1.824,Pass
+Right,Central,2025,Q4,CATU,8,Composite,4,1.25,124,666,790,1.742,Pass
+Left,Central,2023,Q2,CATU,8,Latex Rubber,4,3.25,229,562,791,2.281,Pass
+Left,Central,2023,Q1,3M,10,Latex Rubber,3,0.25,40,117,157,1.007,Pass
+Right,South,2023,Q3,CATU,9,EPDM,2,1.25,1163,95,1258,2.319,Pass
+Left,South,2024,Q3,Honeywell,8,EPDM,4,2.25,626,145,771,2.429,Pass
+Left,South,2025,Q2,Novax,9,Composite,3,1.0,548,293,841,1.394,Pass
+Left,North,2023,Q2,Novax,8,EPDM,4,3.75,748,734,1482,3.922,Fail
+Right,South,2025,Q3,3M,8,Latex Rubber,3,0.5,1035,593,1628,1.909,Pass
+Right,South,2023,Q1,Novax,10,Latex Rubber,4,3.25,880,415,1295,3.531,Fail
+Left,North,2025,Q3,Honeywell,7,EPDM,2,2.0,110,381,491,0.889,Pass
+Right,North,2024,Q4,Honeywell,10,Latex Rubber,2,3.0,1091,388,1479,3.064,Fail
+Right,South,2023,Q4,Honeywell,8,Composite,4,1.25,701,850,1551,3.244,Fail
+Right,South,2024,Q2,CATU,8,Latex Rubber,3,2.0,950,156,1106,2.012,Pass
+Right,South,2023,Q1,CATU,7,Composite,4,3.5,350,839,1189,2.993,Pass
+Left,North,2023,Q1,3M,9,EPDM,3,1.75,870,755,1625,2.501,Pass
+Left,South,2023,Q4,3M,9,EPDM,4,1.5,1053,631,1684,2.033,Pass
+Right,North,2025,Q3,3M,8,EPDM,3,2.25,47,323,370,0.766,Pass
+Right,North,2024,Q2,Honeywell,9,Composite,2,2.75,669,373,1042,2.635,Pass
+Left,North,2023,Q3,Honeywell,8,Latex Rubber,4,1.75,937,610,1547,2.723,Pass
+Left,South,2024,Q3,Honeywell,7,Composite,2,3.75,1059,564,1623,3.797,Fail
+Right,South,2024,Q3,3M,7,EPDM,2,1.25,463,707,1170,1.968,Pass
+Left,Central,2023,Q1,Novax,8,Composite,4,2.0,746,466,1212,2.512,Pass
+Right,Central,2024,Q4,Novax,7,Composite,4,3.0,828,16,844,3.221,Fail
+Right,South,2023,Q1,Honeywell,10,EPDM,3,2.75,782,160,942,2.565,Pass
+Left,Central,2023,Q4,Novax,10,EPDM,3,3.5,22,688,710,2.577,Pass
+Left,South,2024,Q2,Honeywell,7,Composite,2,4.0,924,481,1405,3.624,Fail
+Right,Central,2023,Q2,Novax,8,Composite,3,1.75,930,405,1335,2.754,Pass
+Right,Central,2024,Q3,3M,8,EPDM,3,0.5,834,812,1646,2.762,Pass
+Left,Central,2024,Q4,CATU,7,Latex Rubber,4,0.0,380,181,561,0.491,Pass
+Right,Central,2023,Q4,3M,9,Latex Rubber,3,3.0,341,345,686,2.617,Pass
+Left,South,2024,Q4,3M,10,Composite,2,3.5,270,61,331,2.692,Pass
+Right,Central,2023,Q3,3M,9,EPDM,3,1.0,706,859,1565,1.762,Pass
+Left,North,2025,Q3,Honeywell,8,Composite,2,0.75,696,856,1552,2.12,Pass
+Left,South,2024,Q2,Honeywell,8,Composite,4,0.25,959,452,1411,0.975,Pass
+Left,Central,2025,Q1,Honeywell,9,EPDM,2,3.25,396,207,603,1.746,Pass
+Right,Central,2024,Q4,3M,7,EPDM,3,1.25,830,701,1531,2.549,Pass
+Right,South,2023,Q4,Novax,9,Composite,4,1.5,477,637,1114,1.936,Pass
+Left,South,2024,Q1,Honeywell,9,Composite,3,2.0,78,742,820,2.239,Pass
+Right,North,2025,Q4,CATU,10,Composite,4,3.25,1137,206,1343,3.287,Fail
+Left,South,2024,Q3,Honeywell,10,Latex Rubber,4,2.5,1194,334,1528,2.562,Pass
+Left,South,2025,Q3,CATU,9,Latex Rubber,3,2.5,209,367,576,2.171,Pass
+Right,Central,2025,Q4,CATU,9,Composite,3,0.75,225,896,1121,1.105,Pass
+Right,North,2023,Q3,Novax,8,Composite,4,2.0,221,458,679,2.707,Pass
+Left,South,2023,Q3,CATU,10,Latex Rubber,4,2.75,517,360,877,1.924,Pass
+Right,South,2024,Q4,Honeywell,10,Latex Rubber,3,4.0,25,220,245,2.623,Pass
+Right,Central,2024,Q2,Novax,8,EPDM,2,0.75,893,559,1452,1.498,Pass
+Left,South,2025,Q1,Honeywell,7,Composite,3,0.0,341,891,1232,1.694,Pass
+Left,South,2025,Q3,3M,10,Composite,4,0.25,726,27,753,0.949,Pass
+Right,North,2024,Q2,3M,10,EPDM,3,1.5,560,159,719,1.513,Pass
+Left,Central,2023,Q3,3M,7,EPDM,2,3.25,951,190,1141,3.541,Fail
+Left,North,2025,Q3,Honeywell,10,Composite,3,0.0,265,253,518,0.781,Pass
+Right,South,2023,Q1,CATU,10,EPDM,4,1.75,1001,753,1754,3.099,Fail
+Left,North,2025,Q3,3M,7,Composite,3,1.25,737,809,1546,1.888,Pass
+Left,South,2024,Q1,Novax,7,Latex Rubber,4,0.25,889,138,1027,0.659,Pass
+Right,South,2024,Q1,Honeywell,9,Composite,4,1.75,824,325,1149,2.35,Pass
+Right,South,2023,Q1,3M,8,Composite,3,1.0,658,394,1052,1.637,Pass
+Left,Central,2024,Q2,Honeywell,8,EPDM,4,1.5,1009,438,1447,2.741,Pass
+Left,South,2024,Q4,Honeywell,7,EPDM,4,2.75,480,26,506,2.228,Pass
+Right,North,2024,Q2,3M,7,Latex Rubber,2,2.0,699,877,1576,2.921,Pass
+Right,South,2023,Q4,CATU,10,EPDM,2,0.5,709,604,1313,0.945,Pass
+Right,North,2024,Q4,Novax,9,Composite,2,3.75,516,669,1185,4.373,Fail
+Right,Central,2025,Q1,Honeywell,9,EPDM,2,2.5,1001,129,1130,2.61,Pass
+Left,South,2023,Q3,Honeywell,7,Composite,4,3.0,1019,83,1102,3.291,Fail
+Right,North,2023,Q1,CATU,10,Latex Rubber,3,0.25,813,862,1675,1.527,Pass
+Right,North,2023,Q3,3M,10,EPDM,4,0.25,840,55,895,1.397,Pass
+Left,South,2024,Q4,3M,8,EPDM,4,0.0,223,732,955,0.508,Pass
+Right,South,2024,Q1,CATU,8,Composite,4,0.75,178,180,358,1.261,Pass
+Left,South,2024,Q3,3M,10,EPDM,3,1.75,987,874,1861,2.759,Pass
+Right,South,2023,Q2,3M,8,Latex Rubber,2,3.75,155,257,412,2.748,Pass
+Right,Central,2024,Q3,Novax,7,Latex Rubber,4,1.75,525,250,775,2.309,Pass
+Right,North,2024,Q1,Novax,10,Composite,4,1.25,1123,743,1866,2.051,Pass
+Left,Central,2024,Q2,Honeywell,8,Composite,2,2.25,462,110,572,1.71,Pass
+Left,North,2025,Q3,Novax,9,Latex Rubber,4,0.5,69,197,266,1.043,Pass
+Right,South,2023,Q3,3M,10,Latex Rubber,3,2.5,537,320,857,3.495,Fail
+Left,South,2024,Q3,Novax,10,Composite,4,2.25,1033,306,1339,2.674,Pass
+Left,Central,2024,Q3,3M,9,EPDM,4,3.25,483,552,1035,3.315,Fail
+Left,Central,2024,Q3,Novax,7,Composite,2,4.0,766,720,1486,3.784,Fail
+Left,South,2024,Q2,Novax,9,Latex Rubber,4,1.0,791,783,1574,3.238,Fail
+Left,North,2024,Q4,Honeywell,10,Composite,4,2.0,1112,272,1384,1.772,Pass
+Left,South,2025,Q2,Novax,7,Composite,3,3.75,442,174,616,2.964,Pass
+Right,Central,2023,Q2,Honeywell,8,Latex Rubber,2,3.25,1186,555,1741,2.842,Pass
+Right,South,2023,Q2,CATU,8,Composite,2,2.0,410,459,869,0.929,Pass
+Left,North,2024,Q4,CATU,8,EPDM,3,3.75,66,655,721,3.16,Fail
+Right,South,2024,Q1,Honeywell,10,EPDM,4,0.25,1012,296,1308,1.684,Pass
+Right,South,2023,Q4,3M,9,Composite,2,3.75,195,568,763,2.907,Pass
+Right,South,2023,Q2,Honeywell,7,EPDM,2,0.25,407,803,1210,1.473,Pass
+Right,South,2023,Q3,Novax,8,EPDM,4,2.25,614,805,1419,4.364,Fail
+Left,South,2025,Q3,3M,7,Composite,4,3.5,797,145,942,2.944,Pass
+Right,South,2023,Q2,Honeywell,10,EPDM,2,1.0,167,150,317,1.39,Pass
+Right,North,2023,Q3,Novax,8,Latex Rubber,4,2.0,598,429,1027,2.0,Pass
+Left,South,2023,Q2,Novax,10,Latex Rubber,2,1.25,475,318,793,1.849,Pass
+Left,South,2024,Q3,Novax,9,Composite,4,3.75,455,188,643,2.822,Pass
+Right,Central,2023,Q4,Honeywell,10,Composite,4,3.25,810,668,1478,3.212,Fail
+Right,South,2024,Q1,Novax,10,Composite,3,2.75,1106,717,1823,4.363,Fail
+Right,South,2023,Q1,Honeywell,9,EPDM,4,2.25,938,132,1070,3.089,Fail
+Right,South,2025,Q4,3M,7,EPDM,3,3.25,26,291,317,2.441,Pass
+Right,Central,2023,Q4,Honeywell,9,EPDM,4,1.5,740,827,1567,1.383,Pass
+Right,North,2024,Q2,Honeywell,9,Composite,2,1.75,335,257,592,1.615,Pass
+Left,South,2025,Q2,3M,10,Composite,2,3.0,1004,782,1786,4.909,Fail
+Right,South,2024,Q2,Honeywell,7,EPDM,4,1.5,622,704,1326,2.203,Pass
+Right,North,2024,Q3,Honeywell,8,EPDM,4,0.25,555,390,945,1.84,Pass
+Left,South,2023,Q2,3M,9,Composite,2,0.25,605,234,839,1.914,Pass
+Left,South,2023,Q4,Honeywell,7,EPDM,4,0.5,930,275,1205,1.769,Pass
+Left,Central,2024,Q1,Honeywell,9,Composite,3,3.5,851,775,1626,3.267,Fail
+Left,South,2025,Q3,Honeywell,9,Latex Rubber,3,2.0,353,815,1168,1.234,Pass
+Right,Central,2024,Q2,3M,9,Latex Rubber,3,2.75,868,419,1287,3.313,Fail
+Right,North,2024,Q3,3M,9,Composite,3,1.5,454,202,656,1.308,Pass
+Right,Central,2024,Q3,CATU,10,Composite,3,1.0,231,327,558,1.44,Pass
+Right,South,2024,Q2,Novax,7,EPDM,4,1.5,601,60,661,1.095,Pass
+Right,North,2023,Q3,3M,7,Composite,4,3.25,1040,835,1875,3.642,Fail
+Right,Central,2024,Q1,Honeywell,7,EPDM,3,2.5,1027,207,1234,2.802,Pass
+Left,Central,2025,Q4,3M,9,Latex Rubber,4,3.75,25,787,812,3.228,Fail
+Right,Central,2023,Q4,CATU,10,EPDM,4,2.75,533,625,1158,2.297,Pass
+Left,South,2024,Q1,Novax,9,Latex Rubber,3,2.25,812,632,1444,3.436,Fail
+Left,Central,2023,Q3,Honeywell,9,EPDM,4,2.5,30,608,638,1.951,Pass
+Right,Central,2024,Q2,3M,7,Composite,4,3.75,237,142,379,1.866,Pass
+Left,South,2023,Q3,CATU,9,EPDM,4,3.25,1017,426,1443,3.332,Fail
+Right,Central,2024,Q1,3M,8,EPDM,3,0.0,818,819,1637,1.79,Pass
+Left,North,2025,Q3,Honeywell,9,EPDM,4,2.25,1167,61,1228,2.723,Pass
+Right,Central,2023,Q4,Honeywell,8,Composite,2,2.75,413,566,979,3.375,Fail
+Left,North,2024,Q3,3M,9,Composite,2,3.0,1099,75,1174,2.888,Pass
+Right,North,2025,Q1,CATU,10,Latex Rubber,3,0.75,446,598,1044,1.592,Pass
+Right,Central,2025,Q4,CATU,10,Composite,2,3.5,838,376,1214,2.766,Pass
+Right,Central,2023,Q3,Novax,7,Latex Rubber,3,3.75,943,621,1564,4.18,Fail
+Right,South,2024,Q3,Novax,9,Latex Rubber,2,1.0,268,604,872,1.727,Pass
+Right,Central,2023,Q4,3M,8,Latex Rubber,2,3.5,112,518,630,2.582,Pass
+Left,South,2025,Q2,Honeywell,8,EPDM,2,0.5,1002,876,1878,1.313,Pass
+Left,South,2025,Q4,CATU,9,EPDM,3,0.25,778,88,866,1.939,Pass
+Left,North,2024,Q2,CATU,8,Latex Rubber,3,0.5,1134,47,1181,1.024,Pass
+Right,South,2025,Q1,Honeywell,10,Composite,4,0.25,822,670,1492,1.485,Pass
+Left,North,2024,Q1,Novax,8,EPDM,3,3.5,235,843,1078,3.374,Fail
+Right,South,2024,Q4,Novax,7,EPDM,2,0.25,952,610,1562,1.245,Pass
+Right,North,2023,Q4,Honeywell,10,EPDM,2,1.0,472,814,1286,1.261,Pass
+Left,Central,2025,Q1,CATU,10,EPDM,3,0.5,246,137,383,0.05,Pass
+Left,North,2023,Q2,Honeywell,10,Composite,3,1.25,1059,399,1458,2.66,Pass
+Right,South,2025,Q1,CATU,9,EPDM,3,0.25,1154,69,1223,1.266,Pass
+Left,Central,2025,Q4,Honeywell,9,Latex Rubber,4,2.75,515,294,809,4.004,Fail
+Right,South,2024,Q1,CATU,10,Composite,2,0.5,823,380,1203,1.161,Pass
+Right,North,2023,Q4,Honeywell,9,Latex Rubber,4,3.5,776,773,1549,3.158,Fail
+Right,South,2023,Q4,3M,8,EPDM,4,3.25,643,471,1114,2.807,Pass
+Right,North,2023,Q1,3M,9,Latex Rubber,2,0.0,1000,217,1217,1.517,Pass
+Right,South,2024,Q2,Novax,9,EPDM,2,3.5,627,152,779,2.691,Pass
+Left,North,2023,Q3,3M,10,Latex Rubber,3,0.0,282,577,859,1.379,Pass
+Left,North,2025,Q1,Honeywell,7,Composite,3,1.0,241,475,716,1.005,Pass
+Right,North,2024,Q3,3M,7,Latex Rubber,4,0.25,777,153,930,0.584,Pass
+Right,Central,2023,Q1,3M,7,Composite,3,1.25,505,92,597,0.626,Pass
+Left,South,2024,Q3,3M,8,Latex Rubber,3,2.0,1057,328,1385,1.535,Pass
+Left,North,2024,Q2,3M,9,Latex Rubber,2,3.25,1142,899,2041,3.665,Fail
+Right,South,2024,Q2,Novax,7,Composite,2,1.25,511,400,911,1.657,Pass
+Left,Central,2024,Q1,CATU,10,Composite,3,2.75,34,794,828,2.242,Pass
+Right,Central,2025,Q4,Novax,7,Latex Rubber,2,0.75,297,408,705,1.969,Pass
+Left,Central,2024,Q3,Honeywell,7,Composite,3,3.0,347,86,433,2.954,Pass
+Right,Central,2025,Q4,CATU,9,Latex Rubber,2,1.0,1070,645,1715,2.226,Pass
+Left,South,2025,Q4,Honeywell,9,Composite,2,0.5,146,290,436,0.07,Pass
+Right,North,2023,Q4,Honeywell,9,Composite,2,0.75,517,386,903,1.242,Pass
+Left,North,2025,Q2,Honeywell,8,Latex Rubber,2,0.75,236,869,1105,1.407,Pass
+Left,South,2023,Q1,CATU,8,EPDM,3,2.0,329,796,1125,2.084,Pass
+Right,South,2025,Q1,CATU,7,Latex Rubber,4,3.5,925,274,1199,2.955,Pass
+Left,Central,2024,Q2,Novax,9,Composite,2,0.25,95,296,391,0.463,Pass
+Right,North,2025,Q2,Novax,7,EPDM,3,2.75,935,457,1392,2.872,Pass
+Left,South,2025,Q1,Novax,10,EPDM,3,2.5,62,719,781,2.06,Pass
+Right,Central,2025,Q4,CATU,10,EPDM,2,3.5,869,28,897,3.136,Fail
+Left,North,2025,Q3,Honeywell,9,EPDM,4,1.0,876,867,1743,2.599,Pass
+Right,North,2023,Q3,Honeywell,9,EPDM,2,1.75,442,315,757,1.488,Pass
+Left,South,2023,Q3,Honeywell,10,EPDM,3,3.75,1008,465,1473,4.324,Fail
+Right,South,2024,Q4,3M,9,Composite,4,2.75,109,212,321,1.611,Pass
+Left,North,2023,Q1,Honeywell,8,Latex Rubber,3,1.5,999,796,1795,1.932,Pass
+Right,North,2024,Q2,3M,8,Composite,2,0.5,608,721,1329,1.961,Pass
+Right,North,2023,Q1,CATU,9,EPDM,4,1.0,412,668,1080,1.413,Pass
+Right,South,2025,Q4,Novax,10,Composite,3,2.25,405,442,847,2.46,Pass
+Left,North,2024,Q2,3M,7,EPDM,3,2.75,424,542,966,1.48,Pass
+Right,North,2025,Q4,3M,9,EPDM,3,0.5,948,710,1658,2.763,Pass
+Left,South,2023,Q3,3M,9,Composite,2,2.5,686,340,1026,2.935,Pass
+Right,North,2025,Q3,Novax,7,Composite,4,2.25,472,426,898,1.595,Pass
+Left,South,2025,Q4,Honeywell,9,Composite,2,2.0,550,754,1304,1.834,Pass
+Right,North,2024,Q2,CATU,7,EPDM,2,2.75,1163,325,1488,3.988,Fail
+Left,North,2024,Q2,Novax,10,Latex Rubber,2,3.25,93,501,594,2.253,Pass
+Left,North,2025,Q1,Novax,8,Composite,4,1.25,280,591,871,1.354,Pass
+Right,South,2023,Q3,CATU,10,EPDM,2,3.5,253,167,420,1.47,Pass
+Left,South,2024,Q1,Honeywell,8,Composite,2,0.75,397,815,1212,1.628,Pass
+Left,South,2024,Q1,Honeywell,7,EPDM,2,0.75,223,545,768,1.29,Pass
+Right,Central,2023,Q4,Honeywell,8,Latex Rubber,2,1.0,827,169,996,2.104,Pass
+Left,South,2024,Q4,3M,10,Composite,3,0.5,1199,853,2052,1.722,Pass
+Left,North,2023,Q1,Novax,8,EPDM,2,1.0,68,702,770,0.783,Pass
+Left,North,2023,Q3,Honeywell,7,Composite,3,0.5,892,570,1462,2.116,Pass
+Right,South,2023,Q4,CATU,8,Composite,2,3.25,852,299,1151,3.627,Fail
+Left,North,2025,Q1,CATU,9,Composite,4,0.5,933,46,979,0.671,Pass
+Right,North,2024,Q1,3M,10,Composite,3,3.0,132,289,421,2.87,Pass
+Left,North,2025,Q1,3M,9,EPDM,3,0.25,1172,391,1563,1.863,Pass
+Left,North,2024,Q1,Honeywell,7,EPDM,3,3.75,448,142,590,3.439,Fail
+Left,North,2023,Q1,3M,8,EPDM,3,2.75,1031,191,1222,2.877,Pass
+Right,South,2024,Q1,CATU,9,Composite,4,0.0,571,720,1291,0.201,Pass
+Left,Central,2024,Q4,Honeywell,9,Composite,2,3.0,127,435,562,2.38,Pass
+Left,South,2023,Q3,3M,8,EPDM,3,2.0,914,558,1472,3.255,Fail
+Right,South,2024,Q1,Novax,8,Latex Rubber,4,3.0,404,866,1270,2.646,Pass
+Left,Central,2023,Q2,3M,10,Composite,3,2.0,885,420,1305,2.381,Pass
+Right,North,2024,Q4,CATU,9,Latex Rubber,2,2.5,944,804,1748,3.16,Fail
+Right,Central,2024,Q4,CATU,9,EPDM,3,3.25,1111,430,1541,2.025,Pass
+Left,South,2023,Q1,3M,7,EPDM,4,1.5,961,420,1381,3.204,Fail
+Right,North,2023,Q4,3M,10,EPDM,2,0.0,84,30,114,0.05,Pass
+Left,South,2025,Q1,Honeywell,7,Composite,4,3.5,304,375,679,3.089,Fail
+Right,Central,2024,Q3,Novax,9,Composite,2,1.5,30,389,419,1.459,Pass
+Right,South,2023,Q3,3M,7,EPDM,2,2.0,1048,60,1108,3.026,Fail
+Left,Central,2025,Q4,Honeywell,9,Composite,2,0.0,569,257,826,1.246,Pass
+Right,North,2023,Q4,Honeywell,9,Latex Rubber,3,2.0,1119,638,1757,2.864,Pass
+Right,South,2024,Q2,Novax,7,EPDM,4,4.0,1182,110,1292,3.216,Fail
+Right,South,2025,Q4,CATU,7,Composite,4,1.0,381,134,515,1.712,Pass
+Right,North,2023,Q2,CATU,8,EPDM,4,1.5,827,853,1680,1.7,Pass
+Right,South,2023,Q3,CATU,8,Composite,2,2.75,1184,674,1858,3.808,Fail
+Left,Central,2023,Q3,Honeywell,8,EPDM,3,3.25,1174,380,1554,2.937,Pass
+Right,South,2023,Q1,Novax,9,EPDM,2,1.75,1102,747,1849,3.553,Fail
+Left,South,2023,Q3,3M,7,Latex Rubber,4,1.25,855,312,1167,2.118,Pass
+Right,Central,2024,Q2,CATU,10,Latex Rubber,3,3.75,530,95,625,3.247,Fail
+Left,North,2023,Q4,Novax,9,EPDM,3,2.75,380,397,777,2.553,Pass
+Left,North,2024,Q1,Novax,10,EPDM,3,0.5,110,538,648,0.282,Pass
+Right,Central,2025,Q2,Novax,7,Latex Rubber,4,0.25,670,806,1476,1.336,Pass
+Right,South,2025,Q4,Honeywell,9,Composite,3,2.0,977,114,1091,2.718,Pass
+Right,North,2024,Q1,CATU,10,Composite,3,1.0,252,565,817,1.669,Pass
+Left,North,2023,Q3,Honeywell,10,Composite,2,1.0,762,645,1407,2.707,Pass
+Right,South,2024,Q2,Honeywell,8,Composite,2,3.5,521,589,1110,3.426,Fail
+Left,South,2024,Q4,3M,8,EPDM,3,0.25,858,344,1202,1.036,Pass
+Left,Central,2024,Q1,Honeywell,8,EPDM,3,2.75,564,569,1133,2.434,Pass
+Left,North,2023,Q1,Honeywell,9,EPDM,2,1.0,1128,360,1488,2.241,Pass
+Right,North,2025,Q3,3M,7,Composite,2,3.0,235,896,1131,1.811,Pass
+Right,North,2024,Q4,Honeywell,7,EPDM,2,3.0,223,172,395,3.142,Fail
+Left,South,2023,Q3,Honeywell,8,Composite,4,0.0,727,561,1288,1.68,Pass
+Left,North,2024,Q3,Novax,8,EPDM,4,2.0,76,456,532,2.492,Pass
+Right,South,2024,Q4,3M,8,EPDM,2,0.5,405,109,514,0.247,Pass
+Left,North,2025,Q4,CATU,10,Composite,3,3.5,621,154,775,3.545,Fail
+Right,South,2024,Q4,Honeywell,8,Composite,2,3.5,1045,150,1195,4.416,Fail
+Left,South,2025,Q2,CATU,10,Composite,4,1.75,779,720,1499,1.951,Pass
+Right,South,2023,Q4,Honeywell,7,Latex Rubber,3,1.75,416,878,1294,2.813,Pass
+Left,North,2024,Q1,Honeywell,9,Latex Rubber,4,1.25,934,303,1237,2.101,Pass
+Right,North,2024,Q3,3M,9,EPDM,3,2.75,656,171,827,1.785,Pass
+Left,North,2023,Q2,Honeywell,9,Composite,4,1.5,231,717,948,2.225,Pass
+Right,South,2023,Q4,Honeywell,9,EPDM,3,1.0,1189,650,1839,2.922,Pass
+Right,South,2025,Q2,CATU,10,EPDM,3,1.75,663,727,1390,2.213,Pass
+Left,South,2023,Q4,Novax,10,Latex Rubber,3,0.25,437,52,489,1.461,Pass
+Left,South,2024,Q2,Novax,8,Composite,3,3.0,1191,642,1833,2.766,Pass
+Right,South,2023,Q3,Honeywell,10,Composite,4,0.0,986,243,1229,0.659,Pass
+Left,North,2023,Q3,Honeywell,8,EPDM,4,2.5,1015,11,1026,2.667,Pass
+Right,South,2023,Q1,Honeywell,8,EPDM,3,0.75,380,468,848,1.488,Pass
+Left,Central,2025,Q1,Novax,9,Composite,3,1.0,859,457,1316,1.676,Pass
+Right,Central,2025,Q4,Honeywell,10,Composite,4,2.5,865,788,1653,3.567,Fail
+Right,Central,2025,Q3,Honeywell,10,EPDM,3,4.0,238,375,613,3.317,Fail
+Right,North,2024,Q2,Novax,8,Latex Rubber,3,3.0,289,553,842,3.137,Fail
+Right,North,2023,Q2,CATU,8,Latex Rubber,3,1.0,1080,491,1571,2.202,Pass
+Right,South,2024,Q2,Novax,7,EPDM,2,0.75,984,215,1199,2.093,Pass
+Right,North,2024,Q1,3M,7,EPDM,3,3.5,767,169,936,2.845,Pass
+Left,South,2025,Q2,CATU,8,Composite,2,1.75,1057,129,1186,3.357,Fail
+Left,North,2023,Q1,CATU,7,EPDM,3,0.5,330,341,671,0.773,Pass
+Left,Central,2024,Q1,Novax,7,EPDM,4,3.5,283,196,479,3.709,Fail
+Right,North,2023,Q4,Novax,8,EPDM,2,3.25,565,734,1299,3.274,Fail
+Right,Central,2023,Q2,Honeywell,8,EPDM,2,4.0,853,218,1071,2.776,Pass
+Right,South,2024,Q2,Honeywell,10,Composite,3,3.75,677,578,1255,4.176,Fail
+Right,North,2024,Q3,Honeywell,8,Composite,3,3.5,1009,332,1341,3.495,Fail
+Left,South,2024,Q4,Novax,8,Composite,2,0.25,389,385,774,1.56,Pass
+Left,Central,2024,Q3,Honeywell,9,Composite,4,0.5,720,677,1397,2.444,Pass
+Right,South,2024,Q4,CATU,10,Composite,4,2.25,755,582,1337,2.91,Pass
+Left,South,2025,Q2,3M,10,Latex Rubber,3,2.25,684,802,1486,2.579,Pass
+Left,South,2025,Q1,Honeywell,10,EPDM,4,1.75,125,243,368,2.082,Pass
+Right,North,2025,Q1,Honeywell,9,EPDM,4,1.5,614,536,1150,2.16,Pass
+Left,North,2025,Q1,CATU,8,Latex Rubber,3,1.75,1075,704,1779,3.207,Fail
+Right,North,2023,Q1,3M,10,Latex Rubber,4,2.25,388,86,474,0.887,Pass
+Left,South,2024,Q1,Novax,10,EPDM,3,0.0,475,367,842,1.281,Pass
+Right,North,2024,Q3,3M,7,Latex Rubber,2,1.0,289,509,798,1.249,Pass
+Right,Central,2023,Q4,Honeywell,10,Composite,3,2.0,627,206,833,2.976,Pass
+Right,South,2025,Q2,Novax,8,Composite,2,3.0,127,508,635,2.833,Pass
+Right,Central,2023,Q3,CATU,8,EPDM,2,0.75,318,648,966,1.702,Pass
+Left,South,2025,Q4,3M,7,EPDM,4,2.25,109,41,150,1.916,Pass
+Right,North,2024,Q1,Honeywell,10,EPDM,4,2.75,270,648,918,2.139,Pass
+Right,North,2024,Q4,Novax,10,Composite,4,1.75,1002,593,1595,3.51,Fail
+Right,South,2024,Q4,Honeywell,10,Composite,3,0.0,295,605,900,2.106,Pass
+Left,Central,2025,Q1,Novax,9,EPDM,4,1.75,337,406,743,2.128,Pass
+Right,South,2024,Q1,3M,10,Composite,2,1.25,1136,769,1905,3.497,Fail
+Left,Central,2024,Q1,Honeywell,8,EPDM,4,3.75,72,860,932,2.917,Pass
+Right,North,2023,Q2,Honeywell,8,EPDM,4,0.5,696,710,1406,1.442,Pass
+Left,South,2024,Q1,Novax,9,EPDM,3,2.5,747,180,927,2.53,Pass
+Left,South,2023,Q2,3M,9,Latex Rubber,3,0.25,1040,549,1589,2.085,Pass
+Right,South,2024,Q1,Novax,10,Latex Rubber,2,1.75,648,574,1222,2.165,Pass
+Left,North,2024,Q2,Honeywell,7,EPDM,3,2.25,945,471,1416,3.081,Fail
+Right,South,2024,Q4,CATU,9,EPDM,4,1.25,1125,205,1330,2.338,Pass
+Right,Central,2023,Q3,3M,9,EPDM,3,1.75,485,544,1029,1.689,Pass
+Right,North,2023,Q4,Novax,10,Composite,2,0.75,62,551,613,1.524,Pass
+Left,South,2024,Q4,3M,10,Composite,4,1.25,763,641,1404,2.683,Pass
+Left,North,2023,Q1,CATU,9,Composite,2,2.5,495,398,893,2.564,Pass
+Right,South,2023,Q2,CATU,7,EPDM,3,1.25,1145,837,1982,3.348,Fail
+Right,Central,2023,Q3,Novax,9,EPDM,3,3.5,418,46,464,2.034,Pass
+Left,North,2025,Q1,Honeywell,10,Latex Rubber,2,2.5,1040,601,1641,3.386,Fail
+Right,Central,2024,Q1,Honeywell,10,Composite,4,1.75,677,397,1074,1.644,Pass
+Right,South,2024,Q1,CATU,9,Composite,3,0.25,844,704,1548,1.274,Pass
+Right,South,2023,Q4,Honeywell,7,Latex Rubber,3,2.0,885,627,1512,2.445,Pass
+Left,South,2023,Q2,Honeywell,9,Composite,4,3.0,376,787,1163,2.526,Pass
+Left,South,2025,Q2,Novax,9,EPDM,3,1.0,1011,445,1456,1.886,Pass
+Left,South,2024,Q3,Novax,10,EPDM,2,3.25,259,841,1100,2.97,Pass
+Right,South,2023,Q2,3M,7,EPDM,3,1.0,389,621,1010,2.178,Pass
+Right,North,2023,Q2,Honeywell,8,Composite,3,3.25,881,510,1391,3.179,Fail
+Right,Central,2023,Q1,3M,7,Composite,4,0.25,844,324,1168,0.696,Pass
+Left,North,2024,Q1,Honeywell,9,Composite,2,3.5,784,557,1341,4.002,Fail
+Right,South,2025,Q4,CATU,9,EPDM,4,2.0,928,219,1147,2.014,Pass
+Right,South,2023,Q1,CATU,9,EPDM,3,1.25,464,75,539,1.443,Pass
+Right,North,2023,Q1,CATU,7,Composite,3,1.0,375,572,947,1.926,Pass
+Right,South,2023,Q1,Honeywell,10,EPDM,4,1.75,412,240,652,1.949,Pass
+Left,South,2025,Q1,CATU,9,Latex Rubber,4,4.0,67,285,352,3.364,Fail
+Left,North,2023,Q4,Honeywell,9,Composite,4,1.0,530,621,1151,2.125,Pass
+Right,South,2025,Q1,CATU,7,EPDM,2,0.5,1148,891,2039,1.979,Pass
+Left,South,2024,Q3,3M,8,EPDM,3,2.25,219,166,385,2.973,Pass
+Left,North,2024,Q3,Honeywell,8,Composite,4,2.0,1074,195,1269,2.639,Pass
+Right,South,2023,Q3,CATU,10,Composite,3,2.0,825,13,838,2.081,Pass
+Right,North,2023,Q3,CATU,10,EPDM,2,2.75,182,64,246,2.516,Pass
+Left,South,2024,Q1,Honeywell,9,Latex Rubber,2,1.0,243,897,1140,2.001,Pass
+Right,South,2025,Q3,CATU,7,Latex Rubber,2,3.75,802,821,1623,4.023,Fail
+Left,South,2024,Q1,3M,9,EPDM,2,1.75,802,229,1031,3.436,Fail
+Right,Central,2024,Q4,CATU,10,EPDM,3,0.5,1072,823,1895,2.143,Pass
+Left,South,2023,Q3,Novax,7,EPDM,2,3.0,128,704,832,2.54,Pass
+Right,South,2025,Q2,Honeywell,7,EPDM,2,2.5,344,586,930,2.57,Pass
+Left,Central,2025,Q3,Honeywell,10,EPDM,4,1.25,1107,809,1916,3.248,Fail
+Left,South,2023,Q3,Honeywell,8,Composite,2,2.5,333,291,624,1.483,Pass
+Left,North,2025,Q1,3M,8,EPDM,4,1.0,1020,173,1193,0.941,Pass
+Right,South,2024,Q3,CATU,7,EPDM,2,1.75,1180,66,1246,2.09,Pass
+Left,North,2024,Q2,Honeywell,9,EPDM,2,3.5,293,353,646,1.989,Pass
+Left,North,2024,Q1,3M,8,Latex Rubber,4,0.5,222,446,668,0.964,Pass
+Right,North,2025,Q1,CATU,9,Composite,2,1.5,938,18,956,2.237,Pass
+Right,South,2024,Q4,CATU,8,Composite,3,3.25,761,168,929,2.478,Pass
+Left,Central,2023,Q4,CATU,8,Composite,3,4.0,348,424,772,2.481,Pass
+Left,South,2023,Q3,Novax,9,Latex Rubber,2,1.75,1055,761,1816,2.932,Pass
+Right,North,2025,Q4,3M,10,EPDM,3,2.0,114,851,965,2.7,Pass
+Right,Central,2023,Q4,Honeywell,8,Composite,4,2.25,779,524,1303,1.863,Pass
+Right,Central,2024,Q4,3M,8,EPDM,2,3.75,725,670,1395,4.028,Fail
+Right,South,2024,Q1,Novax,9,EPDM,2,3.5,772,552,1324,3.825,Fail
+Right,Central,2024,Q1,3M,10,Latex Rubber,4,0.75,388,564,952,2.046,Pass
+Left,South,2024,Q1,CATU,8,EPDM,4,1.75,722,601,1323,3.062,Fail
+Right,South,2025,Q4,Honeywell,8,EPDM,4,1.75,234,32,266,2.603,Pass
+Left,South,2023,Q1,Honeywell,10,Latex Rubber,2,3.25,747,712,1459,3.223,Fail
+Left,North,2023,Q4,CATU,8,Composite,4,2.5,245,450,695,2.355,Pass
+Left,North,2023,Q1,CATU,10,Composite,4,2.5,192,212,404,1.83,Pass
+Right,South,2025,Q1,CATU,10,EPDM,3,4.0,721,474,1195,3.576,Fail
+Left,North,2024,Q2,CATU,9,Latex Rubber,3,0.25,453,720,1173,2.26,Pass
+Left,South,2023,Q3,3M,7,EPDM,2,1.0,632,823,1455,1.487,Pass
+Right,Central,2025,Q4,Honeywell,10,Composite,3,1.75,1039,108,1147,1.864,Pass
+Left,South,2025,Q2,CATU,9,Composite,3,1.5,1160,746,1906,3.529,Fail
+Left,South,2025,Q1,CATU,7,EPDM,4,0.0,1137,430,1567,2.22,Pass
+Right,South,2025,Q4,Honeywell,8,Composite,4,0.25,758,105,863,1.033,Pass
+Left,Central,2023,Q1,Novax,7,EPDM,3,2.75,164,545,709,2.878,Pass
+Left,South,2025,Q3,Honeywell,10,Latex Rubber,3,3.5,266,643,909,3.214,Fail
+Left,Central,2024,Q2,3M,10,EPDM,3,2.0,244,854,1098,3.138,Fail
+Right,Central,2025,Q3,3M,10,EPDM,2,2.25,509,526,1035,2.506,Pass
+Right,South,2024,Q2,Novax,10,EPDM,2,1.0,298,110,408,1.73,Pass
+Right,South,2025,Q1,CATU,10,Composite,2,3.0,519,683,1202,4.353,Fail
+Left,South,2024,Q3,3M,9,Latex Rubber,3,3.0,718,773,1491,3.591,Fail
+Left,South,2023,Q3,Honeywell,10,EPDM,3,2.25,794,811,1605,3.007,Fail
+Right,Central,2024,Q1,Honeywell,9,EPDM,2,0.75,903,281,1184,2.139,Pass
+Left,Central,2025,Q3,Honeywell,8,EPDM,2,0.5,785,69,854,1.161,Pass
+Left,South,2025,Q4,CATU,10,EPDM,3,0.25,307,787,1094,2.616,Pass
+Right,North,2023,Q2,3M,10,EPDM,4,2.25,146,192,338,1.932,Pass
+Right,North,2023,Q2,Novax,7,Composite,2,3.25,385,321,706,2.586,Pass
+Left,Central,2023,Q2,CATU,8,Latex Rubber,3,3.5,96,142,238,2.021,Pass
+Left,North,2024,Q4,Honeywell,10,Latex Rubber,3,1.75,446,347,793,2.525,Pass
+Left,North,2025,Q2,Honeywell,10,EPDM,4,3.25,773,109,882,3.315,Fail
+Right,North,2023,Q1,Honeywell,8,Latex Rubber,3,3.75,711,550,1261,3.249,Fail
+Right,North,2024,Q3,CATU,9,Composite,3,1.0,951,384,1335,2.34,Pass
+Right,North,2025,Q4,CATU,10,EPDM,2,1.5,161,114,275,0.618,Pass
+Right,South,2024,Q2,Honeywell,7,EPDM,2,3.75,1041,549,1590,3.886,Fail
+Left,Central,2024,Q1,Novax,10,EPDM,4,1.25,816,358,1174,2.27,Pass
+Right,Central,2024,Q3,Novax,7,EPDM,4,3.75,244,747,991,4.108,Fail
+Right,South,2024,Q3,3M,7,Composite,3,4.0,684,321,1005,3.019,Fail
+Right,North,2023,Q4,3M,10,Composite,2,2.75,570,270,840,1.929,Pass
+Right,South,2024,Q4,Novax,10,EPDM,4,3.25,47,698,745,2.31,Pass
+Right,South,2024,Q4,Honeywell,7,Composite,4,3.0,1169,856,2025,3.104,Fail
+Left,North,2025,Q1,Novax,8,EPDM,4,2.75,831,69,900,3.291,Fail
+Left,Central,2024,Q1,3M,8,Composite,3,1.25,430,337,767,2.452,Pass
+Right,South,2025,Q4,Honeywell,10,Composite,2,0.25,357,517,874,1.384,Pass
+Left,South,2023,Q2,Honeywell,9,EPDM,4,1.25,1112,137,1249,2.722,Pass
+Right,Central,2024,Q3,Honeywell,8,EPDM,2,2.75,757,596,1353,3.097,Fail
+Right,South,2023,Q3,CATU,10,Latex Rubber,4,0.5,282,787,1069,1.49,Pass
+Left,North,2023,Q1,3M,8,EPDM,4,0.0,1194,757,1951,1.889,Pass
+Left,South,2024,Q3,Honeywell,9,Composite,2,0.5,317,544,861,1.195,Pass
+Right,North,2025,Q2,CATU,10,Latex Rubber,2,2.75,985,739,1724,2.59,Pass
+Right,South,2023,Q3,Honeywell,9,EPDM,2,4.0,742,539,1281,3.785,Fail
+Right,South,2024,Q1,Novax,10,Composite,3,4.0,1042,500,1542,3.868,Fail
+Left,South,2025,Q1,CATU,9,EPDM,4,2.0,453,625,1078,2.743,Pass
+Right,Central,2023,Q2,Novax,8,Latex Rubber,3,3.5,1146,623,1769,3.864,Fail
+Right,North,2024,Q2,3M,8,EPDM,2,3.0,414,661,1075,2.836,Pass
+Right,North,2024,Q3,Honeywell,9,Composite,4,2.0,862,373,1235,2.076,Pass
+Left,North,2024,Q3,Novax,9,Composite,3,2.25,787,870,1657,3.065,Fail
+Right,North,2023,Q1,3M,9,Composite,4,0.5,124,655,779,1.645,Pass
+Right,South,2024,Q2,3M,10,EPDM,3,3.75,1154,800,1954,3.549,Fail
+Left,Central,2025,Q2,CATU,8,EPDM,2,1.5,74,814,888,1.968,Pass
+Right,North,2024,Q2,3M,10,Composite,3,1.75,834,103,937,2.222,Pass
+Right,South,2023,Q3,Honeywell,8,Latex Rubber,4,2.75,248,321,569,1.966,Pass
+Left,South,2025,Q2,Novax,7,Latex Rubber,4,1.25,311,127,438,1.088,Pass
+Right,South,2023,Q1,CATU,10,EPDM,4,1.0,978,324,1302,2.137,Pass
+Left,South,2024,Q1,CATU,8,Latex Rubber,4,2.5,378,803,1181,2.171,Pass
+Left,North,2023,Q3,CATU,8,Composite,2,0.0,242,597,839,1.23,Pass
+Right,Central,2025,Q4,Honeywell,10,EPDM,3,3.0,204,499,703,2.135,Pass
+Right,South,2024,Q3,3M,10,EPDM,2,2.0,916,461,1377,3.171,Fail
+Right,South,2023,Q4,Honeywell,8,Latex Rubber,2,2.5,1045,526,1571,4.258,Fail
+Right,North,2023,Q2,Honeywell,10,Latex Rubber,2,2.5,930,524,1454,2.553,Pass
+Left,South,2023,Q3,Honeywell,9,Composite,4,2.0,698,721,1419,2.944,Pass
+Right,North,2025,Q1,3M,10,Latex Rubber,4,2.25,186,319,505,1.629,Pass
+Left,North,2025,Q2,Honeywell,10,Composite,4,2.75,226,713,939,3.178,Fail
+Right,Central,2024,Q1,3M,10,Latex Rubber,3,3.0,1044,714,1758,2.9,Pass
+Right,South,2024,Q2,3M,8,Latex Rubber,4,3.0,639,546,1185,3.257,Fail
+Right,South,2024,Q3,Novax,9,Composite,3,3.5,173,483,656,2.379,Pass
+Left,North,2025,Q4,Honeywell,7,EPDM,4,0.75,62,24,86,0.686,Pass
+Right,South,2024,Q2,3M,7,Composite,4,1.5,227,564,791,1.321,Pass
+Right,North,2024,Q4,3M,9,EPDM,2,3.75,1008,134,1142,3.801,Fail
+Right,North,2024,Q2,3M,9,EPDM,2,1.5,833,297,1130,1.724,Pass
+Right,South,2024,Q1,CATU,9,EPDM,2,0.5,394,136,530,1.328,Pass
+Left,South,2023,Q1,3M,8,Latex Rubber,3,2.0,65,360,425,1.61,Pass
+Right,South,2024,Q2,3M,7,EPDM,3,0.5,127,58,185,0.684,Pass
+Left,South,2024,Q4,Honeywell,9,EPDM,4,0.75,909,894,1803,2.409,Pass
+Left,South,2025,Q3,Honeywell,8,Latex Rubber,3,4.0,807,797,1604,3.563,Fail
+Left,South,2023,Q3,Honeywell,7,Latex Rubber,4,2.25,789,391,1180,2.705,Pass
+Left,North,2024,Q1,Honeywell,10,Composite,3,1.25,1025,269,1294,2.917,Pass
+Left,Central,2024,Q3,3M,8,Latex Rubber,3,4.0,812,219,1031,3.039,Fail
+Left,Central,2024,Q1,Novax,7,Composite,3,3.75,854,464,1318,4.135,Fail
+Right,North,2023,Q3,Novax,8,Latex Rubber,2,1.75,864,462,1326,3.205,Fail
+Left,South,2024,Q2,Novax,7,Composite,3,1.0,717,806,1523,1.813,Pass
+Left,Central,2024,Q1,Novax,7,Composite,2,3.25,1113,47,1160,2.404,Pass
+Left,North,2024,Q1,Novax,10,EPDM,2,2.75,31,590,621,2.522,Pass
+Right,North,2024,Q2,Honeywell,8,EPDM,3,2.75,852,866,1718,3.085,Fail
+Right,South,2024,Q1,3M,9,EPDM,4,3.5,1126,282,1408,4.427,Fail
+Left,North,2025,Q3,Honeywell,10,Composite,4,2.75,201,842,1043,2.769,Pass
+Right,South,2023,Q3,Honeywell,10,EPDM,4,1.25,1028,758,1786,2.194,Pass
+Left,Central,2025,Q1,Honeywell,7,Latex Rubber,3,2.75,1136,134,1270,2.382,Pass
+Left,Central,2024,Q3,Honeywell,9,EPDM,4,1.25,405,354,759,2.216,Pass
+Right,South,2023,Q4,3M,8,Composite,2,3.0,1040,710,1750,3.239,Fail
+Left,South,2023,Q1,CATU,9,EPDM,4,2.5,649,548,1197,2.774,Pass
+Right,Central,2023,Q2,Novax,9,Composite,3,0.25,1028,110,1138,1.94,Pass
+Right,South,2025,Q4,Honeywell,9,Latex Rubber,4,2.0,576,720,1296,2.324,Pass
+Left,South,2024,Q1,Honeywell,9,Latex Rubber,2,1.25,240,5,245,1.185,Pass
+Left,North,2025,Q2,CATU,9,EPDM,3,1.25,883,761,1644,2.459,Pass
+Right,South,2024,Q3,CATU,7,EPDM,4,2.5,583,588,1171,3.071,Fail
+Left,South,2024,Q2,Novax,7,Latex Rubber,3,1.25,249,436,685,1.899,Pass
+Left,South,2023,Q4,Honeywell,10,EPDM,3,3.0,99,310,409,2.208,Pass
+Left,South,2023,Q3,Honeywell,7,Latex Rubber,3,0.25,241,531,772,1.164,Pass
+Right,South,2024,Q1,Honeywell,10,EPDM,4,2.75,466,57,523,2.097,Pass
+Right,South,2023,Q3,Honeywell,10,Latex Rubber,3,3.25,242,524,766,2.038,Pass
+Left,South,2023,Q1,3M,8,EPDM,4,2.75,363,334,697,2.569,Pass
+Right,South,2024,Q1,Honeywell,9,EPDM,2,2.0,1014,562,1576,3.764,Fail
+Right,South,2024,Q2,CATU,7,Latex Rubber,4,3.75,448,329,777,2.62,Pass
+Right,South,2025,Q2,CATU,8,EPDM,2,1.25,354,118,472,1.026,Pass
+Right,South,2025,Q2,Honeywell,7,EPDM,4,0.0,673,151,824,0.606,Pass
+Right,North,2024,Q4,Novax,10,Composite,3,1.75,666,170,836,2.377,Pass
+Left,South,2024,Q4,3M,7,EPDM,4,0.25,139,383,522,1.132,Pass
+Left,South,2024,Q2,Novax,9,EPDM,3,3.75,150,143,293,2.547,Pass
+Left,North,2025,Q4,CATU,10,Composite,2,0.75,424,633,1057,1.205,Pass
+Right,South,2023,Q3,CATU,10,Composite,4,3.25,1126,303,1429,3.42,Fail
+Right,North,2024,Q3,3M,8,EPDM,3,3.0,635,280,915,1.991,Pass
+Left,Central,2025,Q4,CATU,9,Latex Rubber,2,0.75,293,793,1086,1.762,Pass
+Right,South,2024,Q4,Honeywell,10,EPDM,2,2.5,232,854,1086,3.088,Fail
+Left,North,2024,Q3,3M,9,Composite,4,0.25,753,829,1582,1.236,Pass
+Left,South,2024,Q1,Honeywell,7,EPDM,2,2.0,472,182,654,1.222,Pass
+Left,South,2023,Q3,Novax,9,Composite,3,0.0,1173,846,2019,2.907,Pass
+Right,Central,2024,Q3,3M,10,EPDM,2,3.75,366,358,724,2.708,Pass
+Right,North,2023,Q4,Honeywell,8,Composite,2,4.0,1056,158,1214,4.161,Fail
+Left,North,2023,Q3,CATU,10,Composite,3,1.0,868,205,1073,1.739,Pass
+Left,South,2023,Q4,Honeywell,9,Composite,2,0.75,674,882,1556,2.032,Pass
+Left,South,2025,Q4,CATU,9,EPDM,2,3.0,1024,119,1143,3.198,Fail
+Left,South,2023,Q2,3M,10,Composite,2,1.0,94,675,769,1.1,Pass
+Right,North,2024,Q3,3M,9,EPDM,2,3.5,630,558,1188,3.36,Fail
+Right,South,2023,Q1,3M,7,EPDM,3,2.25,1064,763,1827,2.991,Pass
+Left,Central,2025,Q2,3M,10,EPDM,2,1.5,249,72,321,0.754,Pass
+Left,South,2023,Q4,Honeywell,8,EPDM,3,3.25,372,449,821,2.995,Pass
+Right,North,2024,Q4,Novax,10,Latex Rubber,2,2.0,831,449,1280,2.42,Pass
+Right,South,2025,Q1,Novax,7,Composite,2,3.75,677,330,1007,3.19,Fail
+Left,Central,2025,Q4,Honeywell,7,EPDM,2,3.75,108,850,958,2.62,Pass
+Left,South,2023,Q3,3M,7,Composite,2,0.75,56,712,768,2.199,Pass
+Left,Central,2025,Q2,CATU,7,Composite,3,0.0,848,606,1454,2.047,Pass
+Right,South,2024,Q4,CATU,7,EPDM,3,4.0,431,627,1058,3.934,Fail
+Right,South,2024,Q4,3M,8,EPDM,3,3.5,71,884,955,2.932,Pass
+Right,North,2023,Q1,Honeywell,9,Latex Rubber,4,0.25,1142,363,1505,0.927,Pass
+Left,South,2023,Q3,Honeywell,7,EPDM,2,3.25,1152,149,1301,4.235,Fail
+Left,South,2024,Q4,CATU,7,Latex Rubber,2,1.75,1019,279,1298,2.4,Pass
+Right,North,2024,Q1,CATU,10,Composite,3,1.0,607,513,1120,1.484,Pass
+Right,Central,2024,Q4,Novax,8,Composite,4,3.5,401,183,584,2.959,Pass
+Left,South,2024,Q1,Honeywell,8,Composite,2,0.75,986,757,1743,2.865,Pass
+Right,North,2025,Q1,CATU,9,Composite,3,3.75,1085,842,1927,4.085,Fail
+Right,South,2023,Q3,Novax,8,EPDM,2,0.75,612,835,1447,2.654,Pass
+Left,Central,2024,Q4,Novax,10,EPDM,2,2.5,346,481,827,2.961,Pass
+Right,South,2023,Q3,CATU,10,Composite,3,1.0,819,847,1666,1.811,Pass
+Left,North,2025,Q1,CATU,9,Latex Rubber,3,2.25,761,418,1179,2.262,Pass
+Left,South,2024,Q2,Honeywell,10,Latex Rubber,2,2.75,1169,157,1326,3.485,Fail
+Left,South,2025,Q4,Novax,7,Composite,2,0.75,890,108,998,0.254,Pass
+Left,South,2023,Q2,Novax,7,Composite,3,2.0,644,79,723,1.976,Pass
+Left,South,2023,Q4,3M,10,Composite,2,2.0,263,132,395,1.04,Pass
+Left,North,2023,Q3,CATU,9,Composite,2,0.25,1147,715,1862,1.875,Pass
