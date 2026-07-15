@@ -1,9 +1,0 @@
-[project]
-name = "glove-mlops"
-version = "0.1.0"
-description = "Milestone 1 pipeline with extract, validate, and load"
-requires-python = ">=3.10"
-dependencies = ["pandas", "pandera", "pytest"]
-
-[tool.ruff]
-line-length = 88
