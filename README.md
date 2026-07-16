@@ -1,196 +1,81 @@
-\# Insulating Glove Test Data Pipeline
+﻿# Insulating Glove Test Data Pipeline
 
+**MAIDA 211 — AI and Analytics Special Topics — Milestone 1**
 
+## Project & Model
 
-\*\*MAIDA 211 — AI and Analytics Special Topics — Milestone 1\*\*
+Field electrical crews wear rubber insulating gloves as primary protection against electric shock. Regulations (ASTM F496 / OSHA) require these gloves to be periodically dielectric-tested; a glove that leaks more than 3.00 mA under test fails and must be pulled from service. Today, test results are exported from the test-bench system into a spreadsheet and reviewed manually. The eventual model will predict whether a glove is likely to Pass or Fail its next test from its usage history (age, usage cycles, number of owners, brand, and material), so the safety team can proactively flag and replace high-risk gloves before they fail a live test.
 
+This repository implements Milestone 1: the data pipeline that reads the raw test-result extract, enforces a data-quality contract via Pandera, and writes a clean versioned artifact for modeling in Milestone 2.
 
-
-\## Project \& Model
-
-
-
-Field electrical crews wear rubber insulating gloves as primary protection
-
-against electric shock. Regulations (ASTM F496 / OSHA) require these gloves
-
-to be periodically dielectric-tested; a glove that leaks more than 3.00 mA
-
-under test fails and must be pulled from service. Today, test results are
-
-exported from the test-bench system into a spreadsheet and reviewed
-
-manually. The eventual model will predict whether a glove is likely to
-
-\*\*Pass or Fail\*\* its next test from its usage history (age, number of usage
-
-cycles, number of owners, brand/material), so the safety team can
-
-proactively flag and replace high-risk gloves before they fail a live test.
-
-
-
-This repository implements \*\*Milestone 1\*\*: the data pipeline that reads
-
-the raw test-result extract, enforces a data-quality contract, and writes
-
-a clean, versioned artifact for the modeling work in Milestone 2.
-
-
-
-\## Repository Structure
-
-
+## Repository Structure
 
 glove-mlops/
-
 ├── dags/
-
-│   ├── \_\_init\_\_.py
-
-│   └── your\_pipeline.py      # Airflow DAG: extract → validate → load
-
+│   ├── __init__.py
+│   └── your_pipeline.py      # Airflow DAG: extract -> validate -> load
 ├── data/
-
 │   ├── raw/
-
-│   │   └── glove\_test\_extract.csv   # synthetic sample, same schema as production extract
-
-│   └── processed/                   # versioned clean output lands here (gitignored)
-
+│   │   └── glove_test_extract.csv
+│   └── processed/
 ├── tests/
-
-│   └── test\_pipeline.py
-
+│   └── test_pipeline.py
 ├── docker-compose.yml
-
 ├── Dockerfile
-
 ├── pyproject.toml
-
 ├── .pre-commit-config.yaml
-
 ├── .gitignore
-
 └── README.md
 
+## Orchestrator
 
+This pipeline uses Apache Airflow via Docker Compose. The DAG implements three tasks: Extract, Validate, and Load using Airflow TaskFlow API (@dag/@task decorators).
 
-\## Orchestrator
+## Pipeline
 
+1. Extract - reads data/raw/glove_test_extract.csv
+2. Validate - enforces Pandera schema checks. Pipeline stops if data is invalid.
+3. Load - writes data/processed/clean_glove_tests_<UTC-timestamp>.csv
 
+## How to Run
 
-This pipeline uses \*\*Apache Airflow\*\* via Docker Compose. The DAG follows
+Prerequisites: Docker Desktop installed and running, at least 4 GB RAM.
 
-the minimum required structure: extract → validate → load, implemented
-
-using Airflow's @dag / @task decorators (TaskFlow API).
-
-
-
-\## Pipeline
-
-
-
-1\. \*\*Extract\*\* — reads data/raw/glove\_test\_extract.csv
-
-2\. \*\*Validate\*\* — runs Pandera schema checks. Pipeline stops with an error
-
-&#x20;  if data does not conform — this is not a warning.
-
-3\. \*\*Load\*\* — writes validated data to
-
-&#x20;  data/processed/clean\_glove\_tests\_<UTC-timestamp>.csv
-
-
-
-\## How to Run
-
-
-
-\### Prerequisites
-
-\- Docker Desktop installed and running
-
-\- At least 4 GB RAM allocated to Docker
-
-
-
-\### First run
-
-
-
-\# 1. Clone the repo
-
+Step 1 - Clone the repo:
 git clone https://github.com/lowellpagdanganan-blip/https-github.com-learningteam1-glove-mlops.git
-
 cd https-github.com-learningteam1-glove-mlops
 
+Step 2 - Create required directories:
+mkdir logs
+mkdir data\processed
 
-
-\# 2. Create required local directories
-
-mkdir -p logs data/processed
-
-
-
-\# 3. Initialise the Airflow database
-
+Step 3 - Initialize Airflow database:
 docker compose up airflow-init
 
-
-
-\# 4. Start Airflow
-
+Step 4 - Start Airflow:
 docker compose up
 
-
-
-\### Trigger the pipeline
-
-
-
-Open your browser and go to: http://localhost:8081
-
-
-
+Step 5 - Open browser and go to:
+http://localhost:8081
 Login: admin / admin
 
+Step 6 - Trigger the pipeline:
+Find glove_test_pipeline, toggle it On, click the Trigger DAG button.
+Watch Extract, Validate, and Load turn green.
 
+## Output Artifact
 
-1\. Find the glove\_test\_pipeline DAG
+On success, a timestamped CSV is written to:
+data/processed/clean_glove_tests_<UTC-timestamp>.csv
 
-2\. Toggle it On
+Example: data/processed/clean_glove_tests_20260715T140212Z.csv
 
-3\. Click the Trigger DAG button
+The file contains the same columns as the raw extract but is guaranteed to pass all Pandera schema checks. If any row fails validation, the pipeline stops and no output file is written.
 
-4\. Watch Extract → Validate → Load turn green
-
-
-
-\### Check the output artifact
-
-
-
-ls data/processed/
-
-\# clean\_glove\_tests\_20260715T140212Z.csv
-
-
-
-\### Tear down
-
-
+## Tear Down
 
 docker compose down
 
+## What is Next - Milestone 2
 
-
-\## What's Next (Milestone 2)
-
-
-
-MLflow experiment tracking, an expanded pytest suite, and a GitHub Actions
-
-CI workflow will be added on top of this pipeline.
-
+MLflow experiment tracking, expanded pytest suite, and GitHub Actions CI workflow.
