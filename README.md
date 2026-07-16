@@ -12,16 +12,19 @@ Field electrical crews wear rubber insulating gloves as primary protection again
 ```
 glove-mlops/
 ├── dags/
-│   ├── init.py
+│   ├── __init__.py
 │   └── your_pipeline.py
 ├── data/
-│   ├── raw/
-│   │   └── glove_test_extract.csv
-│   └── processed/
+│   └── raw/
+│       └── glove_test_extract.csv
 ├── tests/
+│   ├── __init__.py
 │   └── test_pipeline.py
-├── pyproject.toml
+├── .gitignore
 ├── .pre-commit-config.yaml
+├── Dockerfile
+├── docker-compose.yml
+├── pyproject.toml
 └── README.md
 ```
 
