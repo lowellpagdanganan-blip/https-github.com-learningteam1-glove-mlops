@@ -8,11 +8,25 @@ actually gates.
 
 from __future__ import annotations
 
+import os
+
 import pandas as pd
 import pandera as pa
 import pytest
 
-from dags.your_pipeline import GLOVE_TEST_SCHEMA, extract, load, validate
+import dags.your_pipeline as pipeline
+from dags.your_pipeline import (
+    GLOVE_TEST_SCHEMA,
+)
+from dags.your_pipeline import (
+    _extract as extract,
+)
+from dags.your_pipeline import (
+    _load as load,
+)
+from dags.your_pipeline import (
+    _validate as validate,
+)
 
 VALID_ROW = {
     "LeftRight": "Left",
@@ -37,51 +51,62 @@ def make_df(overrides: dict | None = None, n: int = 3) -> pd.DataFrame:
     return pd.DataFrame([row for _ in range(n)])
 
 
-def test_extract_reads_raw_csv():
-    df = extract.fn()
+def test_extract_reads_raw_csv(tmp_path, monkeypatch):
+    raw_csv = tmp_path / "raw.csv"
+    make_df().to_csv(raw_csv, index=False)
+    monkeypatch.setattr(pipeline, "RAW_PATH", str(raw_csv))
+    result_path = extract()
+    df = pd.read_csv(result_path)
     assert not df.empty
     assert "Test_Result" in df.columns
 
 
-def test_extract_raises_on_missing_file(tmp_path):
+def test_extract_raises_on_missing_file(tmp_path, monkeypatch):
     missing = tmp_path / "does_not_exist.csv"
+    monkeypatch.setattr(pipeline, "RAW_PATH", str(missing))
     with pytest.raises(FileNotFoundError):
-        extract.fn(missing)
+        extract()
 
 
-def test_validate_passes_clean_data():
+def test_validate_passes_clean_data(tmp_path):
+    raw_csv = tmp_path / "clean.csv"
     df = make_df()
-    validated = validate.fn(df)
+    df.to_csv(raw_csv, index=False)
+    validated_path = validate(str(raw_csv))
+    validated = pd.read_csv(validated_path)
     assert len(validated) == len(df)
 
 
-def test_validate_rejects_negative_leakage():
-    df = make_df({"Leakage_mA": -1.0})
+def test_validate_rejects_negative_leakage(tmp_path):
+    raw_csv = tmp_path / "bad.csv"
+    make_df({"Leakage_mA": -1.0}).to_csv(raw_csv, index=False)
     with pytest.raises(pa.errors.SchemaErrors):
-        validate.fn(df)
+        validate(str(raw_csv))
 
 
-def test_validate_rejects_invalid_test_result_category():
-    df = make_df({"Test_Result": "Unknown"})
+def test_validate_rejects_invalid_test_result_category(tmp_path):
+    raw_csv = tmp_path / "bad.csv"
+    make_df({"Test_Result": "Unknown"}).to_csv(raw_csv, index=False)
     with pytest.raises(pa.errors.SchemaErrors):
-        validate.fn(df)
+        validate(str(raw_csv))
 
 
-def test_validate_rejects_out_of_domain_area():
-    df = make_df({"Area": "West"})
+def test_validate_rejects_out_of_domain_area(tmp_path):
+    raw_csv = tmp_path / "bad.csv"
+    make_df({"Area": "West"}).to_csv(raw_csv, index=False)
     with pytest.raises(pa.errors.SchemaErrors):
-        validate.fn(df)
+        validate(str(raw_csv))
 
 
-def test_load_writes_versioned_artifact(tmp_path):
+def test_load_writes_versioned_artifact(tmp_path, monkeypatch):
+    processed_dir = tmp_path / "processed"
+    monkeypatch.setattr(pipeline, "PROCESSED_DIR", str(processed_dir))
+    validated_csv = tmp_path / "validated.csv"
     df = make_df()
-    output_path = load.fn(df, output_dir=tmp_path)
-
-    assert output_path.exists()
-    assert output_path.parent == tmp_path
-    # filename must carry a run-id / timestamp for version tracking
-    assert "clean_glove_tests_" in output_path.name
-
+    df.to_csv(validated_csv, index=False)
+    output_path = load(str(validated_csv))
+    assert os.path.exists(output_path)
+    assert "clean_glove_tests_" in os.path.basename(output_path)
     reloaded = pd.read_csv(output_path)
     assert len(reloaded) == len(df)
 

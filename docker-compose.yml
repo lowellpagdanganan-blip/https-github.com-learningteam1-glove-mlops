@@ -10,8 +10,8 @@ x-airflow-common: &airflow-common
     AIRFLOW__CORE__LOAD_EXAMPLES: "false"
     AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
     AIRFLOW__LOGGING__BASE_LOG_FOLDER: /opt/airflow/logs
-    AIRFLOW__CORE__FERNET_KEY: "81HqDtbqAywKSOumSha3BhWNOdQ26slT6K0YaZeZyPs="
-    AIRFLOW__WEBSERVER__SECRET_KEY: "maida211-glove-mlops-secret"
+    AIRFLOW__CORE__FERNET_KEY: ${AIRFLOW_FERNET_KEY}
+    AIRFLOW__WEBSERVER__SECRET_KEY: ${AIRFLOW_SECRET_KEY}
     PYTHONPATH: /opt/airflow
   volumes:
     - ./dags:/opt/airflow/dags

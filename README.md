@@ -25,6 +25,7 @@ glove-mlops/
 ├── pyproject.toml
 ├── .pre-commit-config.yaml
 ├── .gitignore
+├── .env.example        # copy to .env and fill in secrets (.env is gitignored)
 └── README.md
 
 ## Orchestrator

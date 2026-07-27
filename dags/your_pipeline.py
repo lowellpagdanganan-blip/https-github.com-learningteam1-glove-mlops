@@ -11,13 +11,11 @@ Three tasks:
 from __future__ import annotations
 
 import os
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 import pandas as pd
-import pandera as pa
-from pandera import Column, DataFrameSchema, Check
-
 from airflow.decorators import dag, task
+from pandera import Check, Column, DataFrameSchema
 
 # ---------------------------------------------------------------------------
 # Schema
@@ -26,7 +24,7 @@ from airflow.decorators import dag, task
 GLOVE_TEST_SCHEMA = DataFrameSchema(
     {
         "LeftRight": Column(str, nullable=False),
-        "Area": Column(str, nullable=False),
+        "Area": Column(str, Check.isin(["North", "Central", "South"]), nullable=False),
         "Test_Year": Column(int, Check.ge(2000), nullable=False),
         "Test_Quarter": Column(str, Check.isin(["Q1", "Q2", "Q3", "Q4"]), nullable=False),
         "Brand": Column(str, nullable=False),
@@ -61,6 +59,44 @@ PROCESSED_DIR = os.path.join(
 
 
 # ---------------------------------------------------------------------------
+# Task logic, kept module-level so tests can import it directly
+# ---------------------------------------------------------------------------
+
+
+def _extract() -> str:
+    raw_path = os.path.abspath(RAW_PATH)
+    if not os.path.exists(raw_path):
+        raise FileNotFoundError(f"Raw data not found at {raw_path}")
+    df = pd.read_csv(raw_path)
+    print(f"[extract] Loaded {len(df)} rows from {raw_path}")
+    return raw_path
+
+
+def _validate(raw_path: str) -> str:
+    df = pd.read_csv(raw_path)
+    print(f"[validate] Validating {len(df)} rows ...")
+    validated_df = GLOVE_TEST_SCHEMA.validate(df, lazy=True)
+    print(f"[validate] All {len(validated_df)} rows passed schema checks.")
+    tmp_path = raw_path.replace(".csv", "_validated_tmp.csv")
+    validated_df.to_csv(tmp_path, index=False)
+    return tmp_path
+
+
+def _load(validated_path: str) -> str:
+    os.makedirs(os.path.abspath(PROCESSED_DIR), exist_ok=True)
+    ts = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
+    output_path = os.path.abspath(
+        os.path.join(PROCESSED_DIR, f"clean_glove_tests_{ts}.csv")
+    )
+    df = pd.read_csv(validated_path)
+    df.to_csv(output_path, index=False)
+    if os.path.exists(validated_path):
+        os.remove(validated_path)
+    print(f"[load] Pipeline succeeded. Clean artifact: {output_path}")
+    return output_path
+
+
+# ---------------------------------------------------------------------------
 # DAG
 # ---------------------------------------------------------------------------
 
@@ -74,39 +110,9 @@ PROCESSED_DIR = os.path.join(
 )
 def glove_test_pipeline():
     """Extract → Validate → Load pipeline for insulating glove test data."""
-
-    @task()
-    def extract() -> str:
-        raw_path = os.path.abspath(RAW_PATH)
-        if not os.path.exists(raw_path):
-            raise FileNotFoundError(f"Raw data not found at {raw_path}")
-        df = pd.read_csv(raw_path)
-        print(f"[extract] Loaded {len(df)} rows from {raw_path}")
-        return raw_path
-
-    @task()
-    def validate(raw_path: str) -> str:
-        df = pd.read_csv(raw_path)
-        print(f"[validate] Validating {len(df)} rows ...")
-        validated_df = GLOVE_TEST_SCHEMA.validate(df, lazy=True)
-        print(f"[validate] All {len(validated_df)} rows passed schema checks.")
-        tmp_path = raw_path.replace(".csv", "_validated_tmp.csv")
-        validated_df.to_csv(tmp_path, index=False)
-        return tmp_path
-
-    @task()
-    def load(validated_path: str) -> str:
-        os.makedirs(os.path.abspath(PROCESSED_DIR), exist_ok=True)
-        ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-        output_path = os.path.abspath(
-            os.path.join(PROCESSED_DIR, f"clean_glove_tests_{ts}.csv")
-        )
-        df = pd.read_csv(validated_path)
-        df.to_csv(output_path, index=False)
-        if os.path.exists(validated_path):
-            os.remove(validated_path)
-        print(f"[load] Pipeline succeeded. Clean artifact: {output_path}")
-        return output_path
+    extract = task()(_extract)
+    validate = task()(_validate)
+    load = task()(_load)
 
     raw = extract()
     validated = validate(raw)
