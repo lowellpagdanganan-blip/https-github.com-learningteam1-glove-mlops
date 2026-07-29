@@ -22,6 +22,20 @@ x-airflow-common: &airflow-common
       condition: service_healthy
 
 services:
+  mlflow:
+    image: python:3.11-slim
+    working_dir: /mlflow
+    command: >
+      bash -c "pip install --no-cache-dir mlflow==3.1.1 &&
+               mlflow server
+                 --backend-store-uri sqlite:///mlflow/mlflow.db
+                 --default-artifact-root /mlflow/mlruns
+                 --host 0.0.0.0 --port 5000"
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlflow:/mlflow
+    restart: unless-stopped
   postgres:
     image: postgres:15
     environment:
@@ -34,6 +48,7 @@ services:
       retries: 5
     volumes:
       - postgres-db-volume:/var/lib/postgresql/data
+      
 
   airflow-init:
     <<: *airflow-common

@@ -33,3 +33,9 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+mlflow/mlflow.db
+mlflow/mlruns/
+mlruns/
+.coverage
+.airflow/
