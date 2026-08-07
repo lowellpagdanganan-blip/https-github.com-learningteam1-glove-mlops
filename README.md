@@ -11,24 +11,31 @@ Field electrical crews wear rubber insulating gloves as primary protection again
 
 ```
 glove-mlops/
+├── .github/
+│   └── workflows/
+│       └── ci.yml              # lint + test + coverage, runs on push/PR
 ├── dags/
 │   ├── __init__.py
 │   └── your_pipeline.py
+├── models/
+│   ├── __init__.py
+│   └── train.py                 # feature engineering, SVM training, MLflow logging
 ├── data/
 │   └── raw/
 │       └── glove_test_extract.csv
 ├── tests/
 │   ├── __init__.py
-│   └── test_pipeline.py
+│   ├── test_pipeline.py
+│   ├── test_data_validation.py       # Deliverable 2a
+│   ├── test_model_quality.py         # Deliverable 2b
+│   └── test_pipeline_integration.py  # Deliverable 2c
+├── conftest.py            # cross-platform Airflow import shim for tests
 ├── .gitignore
 ├── .pre-commit-config.yaml
 ├── Dockerfile
-├── docker-compose.yml
+├── docker-compose.yml     # includes an `mlflow` tracking server service
 ├── pyproject.toml
-
-├── .pre-commit-config.yaml
-├── .gitignore
-├── .env.example        # copy to .env and fill in secrets (.env is gitignored)
+├── .env.example           # copy to .env and fill in secrets (.env is gitignored)
 └── README.md
 ```
 
