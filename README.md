@@ -77,6 +77,74 @@ experiment tracking (MLflow), an automated test suite (pytest), and CI
 
 ## Install
 
+Same environment as Milestone 1 (Python 3.11+, `uv`), with a few new
+dependencies (`scikit-learn`, `imbalanced-learn`, `mlflow`) already declared
+in `pyproject.toml`.
+
+```bash
+uv sync --extra dev
+```
+
+## Running MLflow tracking
+
+The tracking server runs in Docker with a SQLite backend (no external
+services required):
+
+```bash
+docker compose up mlflow
+```
+
+This starts the MLflow UI at **http://localhost:5000**.
+
+By default, `models/train.py` points at `sqlite:///mlflow/mlflow.db`, so it
+will also work without Docker if you just want to log locally. To point at
+the Dockerized server instead, set the tracking URI via environment variable:
+
+```bash
+export MLFLOW_TRACKING_URI=http://localhost:5000
+```
+
+Then run a training run (this first executes the Milestone 1 pipeline to
+produce a clean dataset, then trains and logs to MLflow):
+
+```bash
+uv run python models/train.py
+```
+
+Each run logs to the `glove_fail_prediction` experiment:
+- **Params:** model hyperparameters (`C`, `kernel`, `gamma`, oversampling
+  strategy, split sizes) plus pipeline config (engineered features, excluded
+  leaky columns)
+- **Metrics:** accuracy, fail-class precision/recall/F1, ROC-AUC
+- **Model:** registered to the Model Registry as `glove_fail_classifier`
+  with an incrementing version number
+
+Open http://localhost:5000, select the `glove_fail_prediction` experiment,
+and open the most recent run to see the logged params/metrics and the
+linked registered model version.
+
+## Running tests
+
+```bash
+uv run pytest --cov=. --cov-report=term-missing
+```
+
+19 tests across three categories:
+- **Data validation** (`test_data_validation.py`) — confirms the Pandera
+  schema rejects bad data (negative leakage, invalid categories, wrong
+  types, missing columns) and passes valid data through
+- **Model quality** (`test_model_quality.py`) — trains the candidate model
+  and asserts fail-class F1 and ROC-AUC clear defined thresholds on a
+  stratified holdout, and that predictions are well-formed
+- **Integration** (`test_pipeline_integration.py`) — runs Extract → Validate
+  → Load end-to-end on synthetic data and checks the output artifact
+
+## CI
+
+`.github/workflows/ci.yml` runs on every push to `main` and every pull
+request: installs `uv`, lints with `ruff`, and runs the full test suite
+with coverage. All checks must pass before merging.
+
 Latest CI run: https://github.com/lowellpagdanganan-blip/https-github.com-learningteam1-glove-mlops/actions/runs/30488033013
 
 
