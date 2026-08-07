@@ -10,7 +10,10 @@ requires-python = ">=3.11"
 dependencies = [
     "pandas==2.2.3",
     "pandera==0.20.4",
-    "prefect==3.7.8",
+    "apache-airflow==2.9.3",
+    "scikit-learn==1.5.2",
+    "imbalanced-learn==0.12.4",
+    "mlflow==3.1.1",
 ]
 
 [project.optional-dependencies]
@@ -32,4 +35,5 @@ target-version = "py311"
 select = ["E", "F", "I", "W", "UP"]
 
 [tool.pytest.ini_options]
+pythonpath = ["."]
 testpaths = ["tests"]

@@ -1,4 +1,4 @@
-﻿@"
+
 # Insulating Glove Test Data Pipeline
 
 **MAIDA 211 — AI and Analytics Special Topics — Milestone 1**
@@ -25,6 +25,10 @@ glove-mlops/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── pyproject.toml
+
+├── .pre-commit-config.yaml
+├── .gitignore
+├── .env.example        # copy to .env and fill in secrets (.env is gitignored)
 └── README.md
 ```
 
@@ -55,7 +59,17 @@ For example:
 data/processed/clean_glove_tests_20260715T140212Z.csv
 
 The output file contains the same 14 columns as the raw extract (data/raw/glove_test_extract.csv) but is guaranteed to pass every check in GLOVE_TEST_SCHEMA — negative leakage values, invalid Test_Result entries, and unrecognized Area codes are all rejected before the file is written. If validation fails, the pipeline exits non-zero and prints the Pandera failure report instead of producing an artifact.
-"@ | Set-Content README.md -Encoding UTF8
-```
+
+---
+
+# Milestone 2 — MLflow Tracking, Testing & CI
+
+Milestone 2 adds three MLOps layers on top of the Milestone 1 pipeline:
+experiment tracking (MLflow), an automated test suite (pytest), and CI
+(GitHub Actions).
+
+## Install
+
+Latest CI run: https://github.com/lowellpagdanganan-blip/https-github.com-learningteam1-glove-mlops/actions/runs/30488033013
 
 

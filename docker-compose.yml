@@ -10,8 +10,8 @@ x-airflow-common: &airflow-common
     AIRFLOW__CORE__LOAD_EXAMPLES: "false"
     AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
     AIRFLOW__LOGGING__BASE_LOG_FOLDER: /opt/airflow/logs
-    AIRFLOW__CORE__FERNET_KEY: "81HqDtbqAywKSOumSha3BhWNOdQ26slT6K0YaZeZyPs="
-    AIRFLOW__WEBSERVER__SECRET_KEY: "maida211-glove-mlops-secret"
+    AIRFLOW__CORE__FERNET_KEY: ${AIRFLOW_FERNET_KEY}
+    AIRFLOW__WEBSERVER__SECRET_KEY: ${AIRFLOW_SECRET_KEY}
     PYTHONPATH: /opt/airflow
   volumes:
     - ./dags:/opt/airflow/dags
@@ -22,6 +22,20 @@ x-airflow-common: &airflow-common
       condition: service_healthy
 
 services:
+  mlflow:
+    image: python:3.11-slim
+    working_dir: /mlflow
+    command: >
+      bash -c "pip install --no-cache-dir mlflow==3.1.1 &&
+               mlflow server
+                 --backend-store-uri sqlite:///mlflow/mlflow.db
+                 --default-artifact-root /mlflow/mlruns
+                 --host 0.0.0.0 --port 5000"
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlflow:/mlflow
+    restart: unless-stopped
   postgres:
     image: postgres:15
     environment:
@@ -34,6 +48,7 @@ services:
       retries: 5
     volumes:
       - postgres-db-volume:/var/lib/postgresql/data
+      
 
   airflow-init:
     <<: *airflow-common
