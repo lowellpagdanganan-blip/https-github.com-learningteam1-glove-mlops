@@ -145,6 +145,6 @@ uv run pytest --cov=. --cov-report=term-missing
 request: installs `uv`, lints with `ruff`, and runs the full test suite
 with coverage. All checks must pass before merging.
 
-Latest CI run: https://github.com/lowellpagdanganan-blip/https-github.com-learningteam1-glove-mlops/actions/runs/30488033013
+Latest CI run: https://github.com/lowellpagdanganan-blip/https-github.com-learningteam1-glove-mlops/actions/runs/31189562997 
 
 
