@@ -3,16 +3,20 @@ Reference = clean training data. Current = simulated drifted production sample.
 DataDrift + TargetDrift presets (>=2) with an explicit ColumnMapping, plus a
 4-test suite covering data quality."""
 from __future__ import annotations
+
 import os
+
 import numpy as np
 import pandas as pd
 from evidently import ColumnMapping
-from evidently.report import Report
 from evidently.metric_preset import DataDriftPreset, TargetDriftPreset
+from evidently.report import Report
 from evidently.test_suite import TestSuite
 from evidently.tests import (
-    TestNumberOfDriftedColumns, TestShareOfMissingValues,
-    TestNumberOfColumnsWithMissingValues, TestNumberOfRowsWithMissingValues,
+    TestNumberOfColumnsWithMissingValues,
+    TestNumberOfDriftedColumns,
+    TestNumberOfRowsWithMissingValues,
+    TestShareOfMissingValues,
 )
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
