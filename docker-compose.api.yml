@@ -1,0 +1,19 @@
+﻿# docker compose -f docker-compose.api.yml up --build
+# Serves glove_fail_classifier by loading the model directly from the mounted
+# artifact folder (MODEL_URI), which avoids the registry's stored Windows path.
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    image: glove-api:latest
+    ports:
+      - "${APP_PORT:-8000}:${APP_PORT:-8000}"
+    environment:
+      APP_PORT: "${APP_PORT:-8000}"
+      MODEL_NAME: "glove_fail_classifier"
+      MODEL_VERSION: "3"
+      MODEL_URI: "/app/mlruns/1/models/m-28ded493be4a4e8e80ae398f7809ba43/artifacts"
+      GIT_COMMIT: "${GIT_COMMIT:-}"
+    volumes:
+      - ./mlruns:/app/mlruns:ro

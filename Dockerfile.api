@@ -1,0 +1,22 @@
+﻿# API serving image for glove_fail_classifier (final project, Deliverable 1).
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 APP_PORT=8000
+
+WORKDIR /app
+
+# Minimal deps for serving (kept separate from the Airflow image on purpose).
+RUN pip install --no-cache-dir \
+    "fastapi>=0.110" "uvicorn[standard]>=0.29" "pydantic>=2.6" \
+    "mlflow==3.1.1" "scikit-learn==1.5.2" "pandas==2.2.3" "imbalanced-learn==0.12.4"
+
+# Only the serving code goes in the image (no secrets, no data).
+COPY app ./app
+
+# Non-root user (rubric: "no root user").
+RUN useradd --create-home --uid 10001 appuser
+USER appuser
+
+EXPOSE 8000
+CMD uvicorn app.main:app --host 0.0.0.0 --port ${APP_PORT}
+
