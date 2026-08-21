@@ -56,6 +56,7 @@ def main():
     report = Report(metrics=[DataDriftPreset(), TargetDriftPreset()])
     report.run(reference_data=reference, current_data=current, column_mapping=mapping)
     report.save_html(os.path.join(REPORTS, "drift_report.html"))
+    report.save_html(os.path.join(REPORTS, "evidently_report.html"))
 
     suite = TestSuite(tests=[
         TestNumberOfDriftedColumns(lt=(len(CAT + NUM) + 1) // 2),
