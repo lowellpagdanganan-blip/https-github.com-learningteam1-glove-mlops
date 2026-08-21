@@ -1,6 +1,7 @@
 ﻿"""Pydantic request/response models. Fields match the 11 model features.
 extra="forbid" + type checks give automatic 422 on bad input."""
 from __future__ import annotations
+
 from pydantic import BaseModel, ConfigDict, Field
 
 
