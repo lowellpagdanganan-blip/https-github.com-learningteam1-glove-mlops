@@ -1,7 +1,9 @@
 ﻿"""Serving-endpoint tests. Auto-skips when MODEL_NAME isn't set (e.g. in CI),
 so it never breaks the existing suite. Run locally after setting the env vars."""
 from __future__ import annotations
+
 import os
+
 import pytest
 from fastapi.testclient import TestClient
 
