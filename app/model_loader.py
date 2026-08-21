@@ -4,8 +4,10 @@
   otherwise      MODEL_NAME + (MODEL_ALIAS | MODEL_VERSION) via the registry
 """
 from __future__ import annotations
+
 import os
 from dataclasses import dataclass
+
 import mlflow
 
 
